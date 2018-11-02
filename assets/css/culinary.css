@@ -1,0 +1,35 @@
+.body{
+	font-family: verdana, tahoma;
+	font-size: 12px;
+}
+
+.header{
+	width:100%;
+}
+
+#content{
+
+background-color:white;
+min-height:100px;
+background-size: 100% auto;
+text-align:center;
+padding:50px;
+}
+
+
+#info{
+	max-width:170px;
+	width:100%
+	min-width:130px;
+	background-color:#c1c1c1;
+	height:200px;
+	margin:4px;
+	color:#333333;
+	padding:4px;
+}
+
+#info_header{
+	
+	margin:4px;
+	margin-bottom:10px;
+}

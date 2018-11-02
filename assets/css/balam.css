@@ -1,0 +1,29 @@
+.head{
+    opacity: .8;
+    text-align: center;
+    font-size: 50px;
+}
+.judul{
+
+}
+.isi{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: justify ;
+}
+#sidebar{
+    border-color: #333333;
+    height : 100%;
+    font-family: 'Expletus Sans', cursive;
+}
+.clock2{ /*styleJam*/
+    color: #333333;
+    text-align: center;
+    font-size: 35px;
+}
+.judulwidget{
+    text-align: center;
+}
+.widget li a{
+    text-align: center;
+}

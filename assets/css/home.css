@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Expletus+Sans');
+
+.container {
+	background-image: url('/xampp/htdocs/coba/assets/img/background.jpg');
+	font-family: 'Expletus Sans', cursive;
+	font-size: 20px;
+	color: black;
+}
+
+
+.menubar{
+	margin-top: 20px;
+	text-align: center;
+}
+
+.slide{
+	margin-bottom: 30px;
+	
+}
+
+body{
+	background-color: #f2f3f4;
+}
+
+.row{
+	background-color: #ffffff;
+}

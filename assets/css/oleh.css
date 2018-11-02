@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Expletus+Sans');
+
+.head{
+	font-family: 'Expletus Sans', cursive;
+    text-align: center;
+    font-size: 50px;
+    border: 5px solid black;
+    margin-bottom: 10px;
+}
+.judul{
+    text-align: center;
+    font-size: 35px;
+}
+
+.col-8{
+    text-align: justify;
+}
+.col-sm-4{
+    text-align: center;
+}
+.card{
+    width: 350px;
+}
+.card-title{
+    text-align: center;
+}
+.card-text{
+    text-align: center;
+}

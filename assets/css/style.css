@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Expletus+Sans');
+
+
+.container {
+	font-family: 'Expletus Sans', cursive;
+	font-size: 20px;
+	color: #c4ac30;
+}
+
+h5.my-0{
+	color: #c4ac30;
+}
+
+a{
+	font-family: 'Expletus Sans', cursive;
+	color: #c4ac30;
+	font-size: 15px;
+}
+
+a:hover{
+	color: #c4ac30;
+	font-weight: bold;
+}
+
+.btn{
+	color: #363636;
+	outline-color: #363636;
+}
+
+.caraosel{
+	margin-bottom: 50px;
+}
+
+
