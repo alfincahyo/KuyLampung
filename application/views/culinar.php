@@ -31,7 +31,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           </div>
 
           <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 450px;" src="<?=base_url()?>assets/img/culinary/seruit.png" data-holder-rendered="true">
+            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 450px;" src="<?=base_url()?>assets/img/culinary/seruit.jpg" data-holder-rendered="true">
           </div>
         </div>
 
