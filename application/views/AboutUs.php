@@ -21,7 +21,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <div class="container">
 	<div class = "row">
 		<div class = "penjelasan" style = "text-align: center;">
-		<center><p>PENJELASAN SINGKAT KUY LAMPUNG!</p></center>
+		<center><p>PENJELASAN SINGKAT</p></center>
 		<br>
 <p>Kuy Lampung adalah aplikasi berbasis web yang menyediakan informasi tentang pariwisata yang ada di Lampung khususnya Bandar Lampung, Lampung selatan, Lampung Barat. Web ini bertujuan untuk mempermudah pengguna dalam mencari informasi tentang pariwisata apa saja yang ada di Lampung, memperkenalkan pariwisata yang ada di Lampung. pada web ini kami juga menyediakan informasi tentang kuliner khas lampung dan oleh oleh khas lampung.</p>
 <br>
