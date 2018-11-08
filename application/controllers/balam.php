@@ -21,12 +21,28 @@ class balam extends CI_Controller {
 
 	function __construct(){
 		parent:: __construct();
-		$this->load->model('M_data');
+		$this->load->model('komen_balam');
+		$this->load->helper('url');
+	}
+
+	public function input()
+	{
+	$this->load->view('balam/formkomentar');
+	}
+	public function simpan()
+	{
+		$data = array(
+			'email' => $this->input->post('email'),
+			'nama' => $this->input->post('nama'), 
+			'isi' => $this->input->post('komentar')
+		);
+		$proses = $this->komen_balam->simpan($data);
+		redirect('balam/balam1');
 	}
 
 	public function balam1()
 	{
-		$data['komen_lambar'] = $this->M_data->tampil()->result();
+		$data['komen_lambar'] = $this->komen_balam->tampil()->result();
 		$this->load->view('template/header.php');
 		$this->load->view('balam/balam1.php',$data);
 		$this->load->view('template/footer.php');
