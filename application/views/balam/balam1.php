@@ -103,48 +103,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
             </div>
 
-            
-               
-              <div class="row">
-                <div class="col-md-8">
-                  <div class="page-header">
-                    <h2><small class="pull-right">45 comments</small> Comments </h2>
-                  </div> 
-                   <div class="comments-list">
-                     <?php 
-            foreach($komen_lambar as $u){ 
-            ?> 
-                       <div class="media">
-                           <p class="pull-right"><small>5 days ago</small></p>
-                            <a class="media-left" href="#">
-                              <img src="http://lorempixel.com/40/40/people/1/">
-                            </a>
-                            <div class="media-body">
-                                
-                              <h4 class="media-heading user_name"><?php echo $u->nama ?> <br> <?php echo $u->email ?></h4>
-                              W<?php echo $u->isi ?>
-                              
-                              <p><small><a href="">Like</a> - <a href="">Share</a></small></p>
-                            </div>
-                          </div>
-                        </div>
-                    
-                    
-                    
-                </div>
-            </div>
-        
-
-
-
-
-                          <?php } ?>
-
-           
             <?php
                 include "formkomentar.php";
             ?>
-            </div>
             
         </div>
         <div class="col-3 ">
