@@ -11,7 +11,7 @@
 <body>
 	<div>
     <br><br>
-        <form id="formkomentar" action="<?php echo base_url('index.php/crud/simpan'); ?>" method="POST">
+        <form id="formkomentar" action="<?php echo base_url('index.php/balam/simpan'); ?>" method="POST">
         	<input type="text" name="email" placeholder="Email Anda"><br><br>
             <input type="text" name="nama" placeholder="Nama Anda"><br><br>
             <textarea name="komentar" cols="50" rows="2" placeholder="Masukkan Komentar"></textarea><br><br>
