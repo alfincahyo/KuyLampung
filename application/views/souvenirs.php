@@ -25,79 +25,87 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		OLEH-OLEH KHAS LAMPUNG
 	</div>
 	</div>
-  <div id="demo" class="carousel slide" data-ride="carousel">
-	<!-- Indicators -->
-	<ul class="carousel-indicators">
-		<li data-target="#demo" data-slide-to="0" class="active"></li>
-		<li data-target="#demo" data-slide-to="1"></li>
-		<li data-target="#demo" data-slide-to="2"></li>
-		<li data-target="#demo" data-slide-to="3"></li>
-		<li data-target="#demo" data-slide-to="4"></li>
-		<li data-target="#demo" data-slide-to="5"></li>
-	</ul>
+  
+	<div id="demo" class="carousel slide" data-ride="carousel">
+		<div class="carousel-inner" >
+			<div class="carousel-item active">
+				<div class="row text-center m-1">
 
+
+					<div class="col-sm-3 p-3 " >
+						<img src="<?=base_url()?>assets/img/souveniers/isi1.jpg" class="img-thumbnail" alt="Cinque Terre" width="100%" ;>
+					</div>
+					<div class="col-sm-3 p-3 " >
+						<img src="<?=base_url()?>assets/img/souveniers/isi2.jpg" class="img-thumbnail" alt="Cinque Terre" width="100%" ;>
+					</div>
+					<div class="col-sm-3 p-3 " >
+						<img src="<?=base_url()?>assets/img/souveniers/isi3.jpg" class="img-thumbnail" alt="Cinque Terre" width="100%" ;>	
+					</div>
+					<div class="col-sm-3 p-3 " >
+						<img src="<?=base_url()?>assets/img/souveniers/isi4.jpg" class="img-thumbnail" alt="Cinque Terre" width="100%" ;>	
+					</div>
+					
+				</div>
+			</div>
+
+			<div class="carousel-item">
+				<div class="row text-center m-1">
+
+
+					<div class="col-sm-3 p-3 " >
+						<img src="<?=base_url()?>assets/img/souveniers/isi5.png" class="img-thumbnail" alt="Cinque Terre" width="100%" ;>
+					</div>
+					<div class="col-sm-3 p-3 " >
+						<img src="<?=base_url()?>assets/img/souveniers/isi6.jpg" class="img-thumbnail" alt="Cinque Terre" width="100%" ;>
+					</div>
+					<div class="col-sm-3 p-3 " >
+						<img src="<?=base_url()?>assets/img/souveniers/isi7.jpg" class="img-thumbnail" alt="Cinque Terre" width="100%" ;>	
+					</div>
+					<div class="col-sm-3 p-3 " >
+						<img src="<?=base_url()?>assets/img/souveniers/isi8.jpg" class="img-thumbnail" alt="Cinque Terre" width="100%" ;>	
+					</div>
+
+				</div>
+			</div>
+
+						<div class="carousel-item">
+				<div class="row text-center m-1">
+
+					<div class="col-sm-3 p-3 " >
+						<img src="<?=base_url()?>assets/img/souveniers/isi9.jpg" class="img-thumbnail" alt="Cinque Terre" width="100%" ;>
+					</div>
+					<div class="col-sm-3 p-3 " >
+						<img src="<?=base_url()?>assets/img/souveniers/isi10.jpg" class="img-thumbnail" alt="Cinque Terre" width="100%" ;>
+					</div>
+					<div class="col-sm-3 p-3 " >
+						<img src="<?=base_url()?>assets/img/souveniers/isi11.jpg" class="img-thumbnail" alt="Cinque Terre" width="100%" ;>	
+					</div>
+					<div class="col-sm-3 p-3 " >
+						<img src="<?=base_url()?>assets/img/souveniers/isi12.jpg" class="img-thumbnail" alt="Cinque Terre" width="100%" ;>	
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+
+
+		<a class="carousel-control-prev" href="#demo" data-slide="prev">
+			<span class="carousel-control-prev-icon" ></span>
+		</a>
+		<a class="carousel-control-next" href="#demo" data-slide="next">
+			<span class="carousel-control-next-icon"></span>
+		</a>
+	</div>
 	
 
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" >
-      <div class="carousel-item active">
-        <img src="<?=base_url()?>assets/img/souveniers/satu.jpg" alt="Banana Foster" height="400px" width="1300px";>
-        <div class="carousel-caption">
-        <h3>Banana Foster</h3>
-        <p>Cake pisang masa kini</p>
-      	</div>
-      </div>
+			<div class="judul">
+				<h3>BAWALAH KENANG-KENANGAN DARI KOTA TAPIS BERSERI INI</h3>
+				<p class="isi">
+					Beragam oleh-oleh khas Lampung dapat anda bawa, mulai dari kopi, sambal, hingga aneka olahan pisang yang beraneka ragam
+				</p>
+			</div>
 
-      <div class="carousel-item">
-        <img src="<?=base_url()?>assets/img/souveniers/dua.jpg" alt="Pie Pisang" height="400px" width="1300px";>
-		<div class="carousel-caption" >
-        <h3>Pie Pisang</h3>
-        <p>Gurihnya pie dicampur dengan manisnya pisang</p>
-      	</div>
-	  </div>
-    
-      <div class="carousel-item">
-        <img src="<?=base_url()?>assets/img/souveniers/tiga.jpg" alt="Keripik pisang" height="400px" width="1300px";>
-		<div class="carousel-caption">
-        <h3>Keripik pisang</h3>
-        <p>Aneka rasa sesuai selera anda</p>
-      	</div>
-	  </div>
-
-	  <div class="carousel-item">
-        <img src="<?=base_url()?>assets/img/souveniers/empat.jpg" alt="Kopi Lampung" height="400px" width="1300px";>
-		<div class="carousel-caption">
-        <h3>Kopi Lampung</h3>
-        <p>Cita rasa kopi khas lampung</p>
-      	</div>
-	  </div>
-
-	   <div class="carousel-item">
-        <img src="<?=base_url()?>assets/img/souveniers/lima.jpg" alt="Sambal Lampung" height="400px" width="1300px";>
-		<div class="carousel-caption">
-        <h3>Sambal Lampung</h3>
-        <p>Pedas gurihnya bikin nagih</p>
-      	</div>
-	  </div>
-
-	   <div class="carousel-item">
-        <img src="<?=base_url()?>assets/img/souveniers/enam.jpg" alt="Miniatur siger" height="400px" width="1300px";>
-		<div class="carousel-caption">
-        <h3>Miniatur Siger</h3>
-        <p>Hiasan cantik dari lampung</p>
-      	</div>
-	  </div>
-    </div>
-
-
-    <!-- Left and right controls -->
-	<a class="carousel-control-prev" href="#demo" data-slide="prev">
-		<span class="carousel-control-prev-icon"></span>
-	</a>
-	<a class="carousel-control-next" href="#demo" data-slide="next">
-		<span class="carousel-control-next-icon"></span>
-	</a>
-  </div>
 
 	<div class="row">
 	<br>
