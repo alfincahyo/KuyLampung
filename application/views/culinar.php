@@ -43,7 +43,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 450px;" src="<?=base_url()?>assets/img/culinary/seruit.jpg" data-holder-rendered="true">
             <br>
             <br>
-            <a href=https://www.kaliandanews.com/2016/01/cara-membuat-sambal-seruit-lampung.html target="_top" class="btn btn-primary" >Resep Seruit</a>
+            <a href=https://www.kaliandanews.com/2016/01/cara-membuat-sambal-seruit-lampung.html target="_top" class="btn btn-success" >Resep Seruit</a>
           </div>
         </div>
 
@@ -69,7 +69,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 330px;" src="<?=base_url()?>assets/img/culinary/tempoyak.jpg" data-holder-rendered="true">
             <br>
             <br>
-            <a href=https://resepnusantara.id/resep-tempoyak-makanan-khas-lampung/ target="_top" class="btn btn-primary" >Resep Tempoyak</a>
+            <a href=https://resepnusantara.id/resep-tempoyak-makanan-khas-lampung/ target="_top" class="btn btn-success" >Resep Tempoyak</a>
           </div>
         </div>
 
@@ -94,7 +94,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 330px;" src="<?=base_url()?>assets/img/culinary/gulaitaboh2.jpg" data-holder-rendered="true">
             <br>
             <br>
-            <a href=https://widhiaanugrah.com/resep-gulai-taboh-khas-lampung-yang-nikmat/ target="_top" class="btn btn-primary" >Resep Gulai Taboh</a>
+            <a href=https://widhiaanugrah.com/resep-gulai-taboh-khas-lampung-yang-nikmat/ target="_top" class="btn btn-success" >Resep Gulai Taboh</a>
           </div>
         </div>
 
@@ -119,7 +119,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 330px;" src="<?=base_url()?>assets/img/culinary/engkak2.jpg" data-holder-rendered="true">
               <br> 
       <br>
-             <a href=https://resepnusantara.id/resep-kue-engkak-khas-lampung/ target="_top" class="btn btn-primary" >Resep Engkak</a>
+             <a href=https://resepnusantara.id/resep-kue-engkak-khas-lampung/ target="_top" class="btn btn-success" >Resep Engkak</a>
           </div>
         </div>
 
@@ -143,7 +143,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 330px;" src="<?=base_url()?>assets/img/culinary/pindang2.jpg" data-holder-rendered="true">
             <br> 
       <br>
-             <a href=http://kuliner.ilmci.com/resep/2014/30/pindang-patin-khas-lampung.aspx target="_top" class="btn btn-primary" >Resep Pindang</a>
+             <a href=http://kuliner.ilmci.com/resep/2014/30/pindang-patin-khas-lampung.aspx target="_top" class="btn btn-success" >Resep Pindang</a>
           </div>
         </div>
 
@@ -168,7 +168,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 330px;" src="<?=base_url()?>assets/img/culinary/ikanpanggang.png" data-holder-rendered="true">
             <br> 
       <br>
-             <a href=https://www.kreasisasa.com/satu-nusa-satu-sasa/lampung/ikan-bakar-seruit target="_top" class="btn btn-primary" >Resep Panggang Lampung</a>
+             <a href=https://www.kreasisasa.com/satu-nusa-satu-sasa/lampung/ikan-bakar-seruit target="_top" class="btn btn-success" >Resep Panggang Lampung</a>
           </div>
         </div>
 
@@ -192,7 +192,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 330px;" src="<?=base_url()?>assets/img/culinary/pisro.jpg" data-holder-rendered="true">
             <br> 
       <br>
-             <a href=https://www.jejamo.com/pisro-masakan-khas-lampung-nan-langka.html target="_top" class="btn btn-primary" >Resep Pisro</a>
+             <a href=https://www.jejamo.com/pisro-masakan-khas-lampung-nan-langka.html target="_top" class="btn btn-success" >Resep Pisro</a>
           </div>
         </div>
 
@@ -216,7 +216,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 330px;" src="<?=base_url()?>assets/img/culinary/sambaltempoyakudang.jpg" data-holder-rendered="true">
              <br> 
         <br>
-             <a href=https://widhiaanugrah.com/resep-tempoyak-udang-yang-lezat/ target="_top" class="btn btn-primary" >Resep Tempoyak Udang</a>
+             <a href=https://widhiaanugrah.com/resep-tempoyak-udang-yang-lezat/ target="_top" class="btn btn-success" >Resep Tempoyak Udang</a>
           </div>
         </div>
 
@@ -241,7 +241,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 380px;" src="<?=base_url()?>assets/img/culinary/sambalasamkembang.jpg" data-holder-rendered="true">
             <br> 
         <br>
-             <a href=http://kumpulanresepmasakan.info/cari/resep-sambal-asam-kembang-lampung-yen-yen/ target="_top" class="btn btn-primary" >Resep Asam Kembang</a>
+             <a href=http://kumpulanresepmasakan.info/cari/resep-sambal-asam-kembang-lampung-yen-yen/ target="_top" class="btn btn-success" >Resep Asam Kembang</a>
           </div>
         </div>
 
@@ -265,7 +265,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 330px;" src="<?=base_url()?>assets/img/culinary/keripiknangka.jpg" data-holder-rendered="true">
             <br> 
         <br>
-             <a href=http://membuat.info/tag/cara-membuat-keripik-nangka-khas-lampung/ target="_top" class="btn btn-primary" >Resep keripik nangka </a>
+             <a href=http://membuat.info/tag/cara-membuat-keripik-nangka-khas-lampung/ target="_top" class="btn btn-success" >Resep keripik nangka </a>
           </div>
         </div>
 
