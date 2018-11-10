@@ -58,6 +58,7 @@ $route['location'] = 'home/location';
 $route['souvenirs'] = 'home/souvenirs';
 $route['culinar'] = 'home/culinar';
 $route['about_us'] = 'home/about_us';
+$route['login'] = 'home/login';
 //location
 $route['balam'] = 'location/balam';
 $route['lamsel'] = 'location/lamsel';
