@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Expletus+Sans');
+@import url('https://fonts.googleapis.com/css?family=Finger+Paint');
+
+ul.header a{
+	font-family: 'Finger Paint', cursive;
+	margin-left: 60px;
+	font-size: 70px;
+	border-bottom: 10px solid white;
+} 
+
+*{
+	margin:0px;
+	padding: 0px;
+}
+
+body{
+	background-image: url('../img/backlogin.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'Expletus Sans', cursive;
+}
+
+ul{
+	margin-bottom: 50px;
+}
+
+ul a{
+	font-size: 20px;
+	color : white;
+}
+
+ul a:hover{
+	text-decoration: none;
+	color:gray;
+}
+
+.label{
+	font-size: 20px;
+	color: white;
+	font-weight: normal;
+}
+
+.form-control{
+	background-color: rgba(0,0,0,0) !important; 
+	border-bottom: 0px;
+	border: 0px;
+	border-bottom: 1px solid white;
+	margin-bottom: 30px;
+	font-size: 20px;
+	color: white !important;  
+	padding: 20px;
+}
+
+
+input[type="checkbox"]{
+	height: 15px;
+	width: 15px;
+}
+
+.btn-info{
+	background: white;
+	border: 2px solid white;
+	border-radius: 0px;
+	width: 360px;
+	margin-top: 20px;
+	font-size: 20px;
+	background: transparent;
+	margin-bottom: 30px;
+}
+
+.btn-info:hover{
+	background: black;
+	border: 2px solid white;
+}
+
+img{
+	height: 450px;
+	width: 475px;
+}
+
+small{
+	color: white;
+}
