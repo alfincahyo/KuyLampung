@@ -9,21 +9,12 @@
 }
 .judul{
     text-align: center;
-    font-size: 35px;
+    padding: 35px;
 }
-
-.col-8{
-    text-align: justify;
+.isi{
+    padding: 25px 250px 35px 250px;
+    font-size: 15px;
 }
-.col-sm-4{
-    text-align: center;
-}
-.card{
-    width: 350px;
-}
-.card-title{
-    text-align: center;
-}
-.card-text{
+.row{
     text-align: center;
 }
