@@ -5,7 +5,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <!DOCTYPE html>
 <html>
 <head>
-	<title>PANTAI MUTUN </title>
+	<title>PANTAI MUTUN</title>
    <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
@@ -25,12 +25,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div class="head">
     BANDAR LAMPUNG
     </div>
-<br>
-<h3>EKSOTISME PANTAI MUTUN DAN PULAU TANGKIL</h3>
     <div class="row">
-        <div class="col-9 " >
+        <div class="col-8 " >
             <div class="judul">
-            <br>
+            <h2>EKSOTISME PANTAI MUTUN DAN PULAU TANGKIL</h2>
             <img src="<?=base_url()?>assets/img/balam/mutun3.jpg" class="img-thumbnail" alt="Cinque Terre" height="410px" width="820px";>	
             </div>
             <div class="isi">
@@ -58,98 +56,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             pulau tak berpenghuni yang pantainya indah.  Jarak tempuh pantai Mutun – Pulau tangkil sekitar 10 menit perjalanan, 
             sewa perahu PP berkisar 60 – 100ribu/perahu atau sekitar 15.000 – 20.000/orang, bisa muat hingga 10 orang/perahunya.
             Pulau tangkil memiliki pantai berkontur landai, dengan hamparan pasir yang bersih.  Cocok untuk dinikmati bersama keluarga tercinta, termasuk anak-anak, atau bersama para sahabat.
-            <br><br>
             </div>
-            <div class="row">
-				<div class="col-sm-4" style="text-align:center;">
-					<img src="<?=base_url()?>assets/img/balam/money.png" alt="uang" height="50x" width="50px";>	
-					<br><br>
-					80.000 - 120.000
-				</div>
-				<div class="col-sm-4" style="text-align:center;">
-					<img src="<?=base_url()?>assets/img/balam/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/balam/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/balam/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/balam/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/balam/emptystar.png" alt="bintang setengah" height="25px" width="25px"  margin-bottom = "20px";>	
-					<br><img src="<?=base_url()?>assets/img/balam/none.png"  height="50px" width="50px";>	
-					<br>
-					7.5 / 10
-				</div>
-				<div class="col-sm-4" style="text-align:center;">
-					<img src="<?=base_url()?>assets/img/balam/mytime.png" alt="waktu" height="50x" width="50px";>		
-					<br><br>
-					Setiap Hari <br> 07.00 - 20.00
-				</div>
-            </div>
-            <br><br>
-            <div class="row" >
-                <div class="col-sm-6">
-                <img src="<?=base_url()?>assets/img/balam/mutun2.jpg" class="img-thumbnail" alt="Cinque Terre" height="205px" width="410px";>	
-                </div>
-                <div>
-                <img src="<?=base_url()?>assets/img/balam/mutun1.jpg" class="img-thumbnail" alt="Cinque Terre" height="205px" width="400px";>
-                </div>
-            </div>
-            <br>
-            <div class="row" >
-                <div class="col-sm-6">
-                <img src="<?=base_url()?>assets/img/balam/mutun5.jpg" class="img-thumbnail" alt="Cinque Terre" height="205px" width="410px";>	
-                <br><br>
-                </div>
-                <div>
-                <img src="<?=base_url()?>assets/img/balam/mutun4.jpg" class="img-thumbnail" alt="Cinque Terre" height="205px" width="400px";>
-                <br><br>
-                </div>
-            </div>
-
-            
-               
-              <div class="row">
-                <div class="col-md-8">
-                  <div class="page-header">
-                    <h2><small class="pull-right">45 comments</small> Comments </h2>
-                  </div> 
-                   <div class="comments-list">
-                     <?php 
-            foreach($komen_lambar as $u){ 
-            ?> 
-                       <div class="media">
-                           <p class="pull-right"><small>5 days ago</small></p>
-                            <a class="media-left" href="#">
-                              <img src="http://lorempixel.com/40/40/people/1/">
-                            </a>
-                            <div class="media-body">
-                                
-                              <h4 class="media-heading user_name"><?php echo $u->nama ?> <br> <?php echo $u->email ?></h4>
-                              W<?php echo $u->isi ?>
-                              
-                              <p><small><a href="">Like</a> - <a href="">Share</a></small></p>
-                            </div>
-                          </div>
-                        </div>
-                    
-                    
-                    
-                </div>
-            </div>
-        
-
-
-
-
-                          <?php } ?>
-
-           
+            <div class="komentar">
             <?php
                 include "formkomentar.php";
             ?>
             </div>
             
         </div>
-        <div class="col-3 ">
+        <div class="col-4 ">
         <div id="sidebar" >
-            <br><br>
             <div id="clock" class="clock2"></div>
             <script type="text/javascript">
 
@@ -182,23 +98,48 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 }
                     showTime();
                 </script>
-            <br><br>
+                
+            <div class="judulwidget">ARTIKEL MENARIK LAINNYA<br></div>
+
                 <div class="widget">
-                    <h3 class="judulwidget">Artikel Menarik lainnya<br></h3>
                         <ul>
-                            <li><a href="<?php echo site_url('balam/balam1'); ?>"">Pantai Mutun<br></a></li><br>
-                            <li><a href="<?php echo site_url('balam/balam2'); ?>"">Puncak Mas<br></a></li><br>
-                            <li><a href="<?php echo site_url('balam/balam3'); ?>"">Taman kupu-kupu<br></a></li><br>
-                            <li><a href="<?php echo site_url('balam/balam4'); ?>"">Museum Lampung<br></a></li><br>
-                            <li><a href="<?php echo site_url('balam/balam5'); ?>"">Horti Park<br></a></li><br>
-                            <li><a href="<?php echo site_url('balam/balam6'); ?>"">Bukit Sakura<br></a></li><br>
-                            <li><a href="<?php echo site_url('balam/balam7'); ?>"">Lembah Hijau<br></a></li><br>
-                            <li><a href="<?php echo site_url('balam/balam8'); ?>"">Alam Wawai<br></a></li><br>
-                            <li><a href="<?php echo site_url('balam/balam9'); ?>"">Hutan Pinus (Zona 235)<br></a></li><br>
-                            <li><a href="<?php echo site_url('balam/balam10'); ?>"">Penangkaran Rusa<br></a></li><br>
+                            <p><li><a href="<?php echo site_url('balam/balam1'); ?>">Pantai Mutun</a></li></p>
+                            <p><li><a href="<?php echo site_url('balam/balam2'); ?>">Puncak Mas</a></li></p>
+                            <p><li><a href="<?php echo site_url('balam/balam3'); ?>">Taman kupu-kupu</a></li></p>
+                            <p><li><a href="<?php echo site_url('balam/balam4'); ?>">Museum Lampung</a></li></p>
+                            <p><li><a href="<?php echo site_url('balam/balam5'); ?>">Horti Park</a></li></p>
+                            <p><li><a href="<?php echo site_url('balam/balam6'); ?>">Bukit Sakura</a></li></p>
+                            <p><li><a href="<?php echo site_url('balam/balam7'); ?>">Lembah Hijau</a></li></p>
+                            <p><li><a href="<?php echo site_url('balam/balam8'); ?>">Alam Wawai</a></li></p>
+                            <p><li><a href="<?php echo site_url('balam/balam9'); ?>">Hutan Pinus (Zona 235)</a></li></p>
+                            <p><li><a href="<?php echo site_url('balam/balam10'); ?>">Penangkaran Rusa</a></li></p>
                         </ul>
                 </div>
-                
+                <div class="nilai" style="text-align:center;">
+					<p><img src="<?=base_url()?>assets/img/balam/money.png" alt="uang" height="50x" width="50px";>	
+					<br><br>
+                    80.000 - 120.000
+                    </p>                
+                </div>
+                <div class="nilai" style="text-align:center;">
+                    <p>
+                    <img src="<?=base_url()?>assets/img/balam/star.png" alt="bintang" height="25px" width="25px";>	
+					<img src="<?=base_url()?>assets/img/balam/star.png" alt="bintang" height="25px" width="25px";>	
+					<img src="<?=base_url()?>assets/img/balam/star.png" alt="bintang" height="25px" width="25px";>	
+					<img src="<?=base_url()?>assets/img/balam/star.png" alt="bintang" height="25px" width="25px";>	
+					<img src="<?=base_url()?>assets/img/balam/emptystar.png" alt="bintang setengah" height="25px" width="25px"  margin-bottom = "20px";>	
+					<br><img src="<?=base_url()?>assets/img/balam/none.png"  height="50px" width="50px";>	
+					<br>
+                    7.5 / 10
+                    </p>                   
+                </div>
+                <div class="nilai" style="text-align:center;">
+                    <p>
+                    <img src="<?=base_url()?>assets/img/balam/mytime.png" alt="waktu" height="50x" width="50px";>		
+					<br><br>
+                    Setiap Hari <br> 07.00 - 20.00
+                    </p>                    
+				</div>
         </div>
 		<br>
         </div>
