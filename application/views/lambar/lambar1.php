@@ -68,24 +68,7 @@ Fasilitas: <br> Untuk fasilitas secara resmi masih belum tersedia di kawasan Gun
 				</div>
             </div>
             <br><br>
-            <div class="row" >
-                <div class="col-sm-6">
-                <img src="<?=base_url()?>assets/img/lambar/gunungseminung6.jpg" class="img-thumbnail" alt="Cinque Terre" style="height: 227px; width: 400px;";>	
-                </div>
-                <div>
-                <img src="<?=base_url()?>assets/img/lambar/gunungseminung5.jpg" class="img-thumbnail" alt="Cinque Terre" style="height: 227px; width: 400px;">
-                </div>
-            </div>
-            <br>
-            <div class="row" >
-                <div class="col-sm-6">
-                <img src="<?=base_url()?>assets/img/lambar/gunungseminung7.jpg" class="img-thumbnail" alt="Cinque Terre" style="height: 227px; width: 400px;">	
-                </div>
-                <div>
-                <img src="<?=base_url()?>assets/img/lambar/gunungseminung8.jpg" class="img-thumbnail" alt="Cinque Terre" style="height: 227px; width: 400px;">
-                </div>
-            </div>
-            <?php
+         <?php
                 include "formkomentar.php";
             ?>
         </div>
