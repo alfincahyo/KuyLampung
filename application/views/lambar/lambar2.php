@@ -70,23 +70,7 @@ Fasilitas : <br> Transportasi kedanau ranau, perahu untuk melihat pemandangan da
 				</div>
             </div>
             <br><br>
-            <div class="row" >
-                <div class="col-sm-6">
-                <img src="<?=base_url()?>assets/img/lambar/danauranaux1.jpg" class="img-thumbnail" alt="Cinque Terre" style="height: 227px; width: 400px;">	
-                </div>
-                <div>
-                <img src="<?=base_url()?>assets/img/lambar/danauranaux2.jpg" class="img-thumbnail" alt="Cinque Terre" style="height: 227px; width: 400px;">
-                </div>
-            </div>
-            <br>
-            <div class="row" >
-                <div class="col-sm-6">
-                <img src="<?=base_url()?>assets/img/lambar/danauranaux3.jpg" class="img-thumbnail" alt="Cinque Terre" style="height: 227px; width: 400px;">	
-                </div>
-                <div>
-                <img src="<?=base_url()?>assets/img/lambar/danauranaux4.jpg" class="img-thumbnail" alt="Cinque Terre" style="height: 227px; width: 400px;">
-                </div>
-            </div>
+            
             <?php
                 include "formkomentar.php";
             ?>

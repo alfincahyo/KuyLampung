@@ -68,23 +68,7 @@ Fasilitas : transportasi umum, penginapan
 				</div>
             </div>
             <br><br>
-            <div class="row" >
-                <div class="col-sm-6">
-                <img src="<?=base_url()?>assets/img/lambar/jakung2.jpg" class="img-thumbnail" alt="Cinque Terre" style="height: 227px; width: 400px;">	
-                </div>
-                <div>
-                <img src="<?=base_url()?>assets/img/lambar/jakung3.jpg" class="img-thumbnail" alt="Cinque Terre" style="height: 227px; width: 400px;">
-                </div>
-            </div>
-            <br>
-            <div class="row" >
-                <div class="col-sm-6">
-                <img src="<?=base_url()?>assets/img/lambar/jakung4.jpg" class="img-thumbnail" alt="Cinque Terre" style="height: 227px; width: 400px;">	
-                </div>
-                <div>
-                <img src="<?=base_url()?>assets/img/lambar/jakung5.jpg" class="img-thumbnail" alt="Cinque Terre" style="height: 227px; width: 400px;">
-                </div>
-            </div>
+            s
             <?php
                 include "formkomentar.php";
             ?>

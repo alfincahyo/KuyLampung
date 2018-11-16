@@ -74,23 +74,7 @@ Area Parkir kendaraan, Mushola, Kamar mandi / MCK, Penginapan, dan masih banyak 
 				</div>
             </div>
             <br><br>
-            <div class="row" >
-                <div class="col-sm-6">
-                <img src="<?=base_url()?>assets/img/lambar/tjsetia2.jpg" class="img-thumbnail" alt="Cinque Terre" style="height: 227px; width: 400px;">	
-                </div>
-                <div>
-                <img src="<?=base_url()?>assets/img/lambar/tjsetia3.jpg" class="img-thumbnail" alt="Cinque Terre" style="height: 227px; width: 400px;">
-                </div>
-            </div>
-            <br>
-            <div class="row" >
-                <div class="col-sm-6">
-                <img src="<?=base_url()?>assets/img/lambar/tjsetia4.jpg" class="img-thumbnail" alt="Cinque Terre" style="height: 227px; width: 400px;">	
-                </div>
-                <div>
-                <img src="<?=base_url()?>assets/img/lambar/tjsetia5.jpg" class="img-thumbnail" alt="Cinque Terre" style="height: 227px; width: 400px;">
-                </div>
-            </div>
+           
             <?php
                 include "formkomentar.php";
             ?>

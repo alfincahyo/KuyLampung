@@ -67,23 +67,7 @@ Letaknya yang tidak jauh dari pemukiman penduduk ini, memiliki air jernih namun 
 
 
             <br><br>
-            <div class="row" >
-                <div class="col-sm-6">
-                <img src="<?=base_url()?>assets/img/lambar/suoh2.jpg" class="img-thumbnail" alt="Cinque Terre" style="height: 227px; width: 400px;">	
-                </div>
-                <div>
-                <img src="<?=base_url()?>assets/img/lambar/suoh3.jpg" class="img-thumbnail" alt="Cinque Terre" style="height: 227px; width: 400px;">
-                </div>
-            </div>
-            <br>
-            <div class="row" >
-                <div class="col-sm-6">
-                <img src="<?=base_url()?>assets/img/lambar/suoh4.jpg" class="img-thumbnail" alt="Cinque Terre" style="height: 227px; width: 400px;">	
-                </div>
-                <div>
-                <img src="<?=base_url()?>assets/img/lambar/suoh1.jpg" class="img-thumbnail" alt="Cinque Terre" style="height: 227px; width: 400px;">
-                </div>
-            </div>
+            
             <?php
                 include "formkomentar.php";
             ?>
