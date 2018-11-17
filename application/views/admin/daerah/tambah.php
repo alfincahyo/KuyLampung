@@ -14,20 +14,14 @@
                     <div class="col-md-4">
                         <div class="form-group">
                             <label>Nama Daerah</label>
-                            <input type="text" name="nama_daerah" class"form-control" value="
-                                <?php
-                                    echo set_value('nama_daerah')
-                                ?>" placeholder="Nama Daerah" required>
+                            <input type="text" name="nama_daerah" class"form-control" placeholder="Nama Daerah" required>
                         </div>
                     </div>
 
                     <div class="col-md-4">
                       <div class="form-group form-group-lg">
                         <label>Alamat</label>
-                        <input type="text" name="alamat" class"form-control" value="
-                            <?php
-                              echo set_value('alamat')
-                            ?>" placeholder="Alamat" required>
+                        <input type="text" name="alamat" class"form-control" placeholder="Alamat" required>
                       </div>
                     </div>
 
