@@ -11,25 +11,16 @@ class Daerah extends CI_Controller {
 		public function index(){
       $daerah = $this->daerah_model->listing();
 
-			$data = array('title'   => 'Data Daerah',
-                    'daerah'  => $daerah,
-                    'isi'     => 'admin/daerah/list'
-                   );
-			$this->load->view('admin/layout/wrapper',$data);
-	  }
-
-    public function tambah(){
       $valid = $this->form_validation;
       $valid->set_rules('nama_daerah','Nama_daerah','required',
                         array('required' => 'Nama Daerah Harus Diisi'));
       if ($valid->run()===FALSE) {
-
-          $data = array('title' => 'Tambah Data Daerah',
-                        'isi'   => 'admin/daerah/tambah'
-                       );
-          $this->load->view('admin/layout/wrapper',$data);
-      }
-      else {
+			     $data = array('title'   => 'Data Daerah',
+                         'daerah'  => $daerah,
+                         'isi'     => 'admin/daerah/list'
+                    );
+			     $this->load->view('admin/layout/wrapper',$data);
+      }else {
           $i    = $this->input;
           $data = array('nama_daerah'   => $i->post('nama_daerah'),
                         'alamat'        => $i->post('alamat')
@@ -38,7 +29,8 @@ class Daerah extends CI_Controller {
           $this->session->set_flashdata('SUKSES','Data Telah Ditambahkan');
           redirect(base_url('admin/daerah'));
       }
-    }
+
+	  }
 
     public function edit($id_daerah){
       $daerah = $this->daerah_model->detail($id_daerah);
