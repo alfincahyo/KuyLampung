@@ -14,7 +14,7 @@ echo form_open(base_url('admin/daerah/edit/'.$daerah->id_daerah));
   </div>
 </div>
 
-<div class="col-md-8">
+<div class="col-md-3">
   <div class="form-group form-group-lg">
     <label>Alamat</label>
     <input type="text" name="alamat" class"form-control" placeholder="Masukkan Alamat" value="
