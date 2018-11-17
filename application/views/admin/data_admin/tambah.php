@@ -4,30 +4,24 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title" id="myModalLabel">Tambah Admin</h4>
+                    <h4 class="modal-title" id="myModalLabel">Tambah Daerah</h4>
                 </div>
                 <div class="modal-body">
                     <?php
                       echo validation_errors('<div class="alert alert-warning">,</div>');
-                      echo form_open(base_url('admin/data_admin'));
+                      echo form_open(base_url('admin/daerah'));
                     ?>
                     <div class="col-md-4">
                         <div class="form-group">
-                            <label>Username</label>
-                            <input type="text" name="username" class"form-control" value="
-                                <?php
-                                    echo set_value('username')
-                                ?>" placeholder="Username" required>
+                            <label>Nama Daerah</label>
+                            <input type="text" name="nama_daerah" class"form-control" placeholder="Nama Daerah" required>
                         </div>
                     </div>
 
                     <div class="col-md-4">
                       <div class="form-group form-group-lg">
-                        <label>Password</label>
-                        <input type="text" name="password" class"form-control" value="
-                            <?php
-                              echo set_value('password')
-                            ?>" placeholder="Password" required>
+                        <label>Alamat</label>
+                        <input type="text" name="alamat" class"form-control" placeholder="Alamat" required>
                       </div>
                     </div>
 
