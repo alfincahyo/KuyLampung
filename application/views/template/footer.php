@@ -13,131 +13,98 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </head>
 
-<body>
+	<!-- Footer -->
+<footer class="page-footer font-small mdb-color pt-4">
 
-	<footer class="page-footer font-small blue-grey lighten-5">
-	<div class=" class="container" style="margin-top: 50px; border: 20px;">
-	
 
-    <div class="container">
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
 
-	 <!-- row-->
-	 <div class="row py-4 d-flex align-items-center">
+      <!-- Footer links -->
+      <div class="row text-center text-md-left mt-3 pb-3">
 
-	 <!-- column -->
-	 <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
-            <h4 class="mb-0">us on social networks! </h4>
-            </div>
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 font-weight-bold">Company name</h6>
+          <p>HALO!</p>
+          <P>Kami dari team Dududu membuat web yang berisi informasi pariwisata yang ada dilampung!</P>
+          <p>Semoga bermanfaat!</p>
 
         </div>
-    </div>
-</div>
+        <!-- Grid column -->
 
+        <hr class="w-100 clearfix d-md-none">
 
-    <!-- Link -->
-    <div class="container text-center text-md-left mt-5">
-
-    <!-- Grid row -->
-      <div class="row mt-3 dark-grey-text">
-
-     <!-- Grid column -->
-       <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
-
-       	<br>
-
-       	<!-- Content -->
-          <h6 class="text-uppercase font-weight-bold">Company name</h6>
-          <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-          <p>Kami dari kelompok DUDUDU membuat web pariwisata. </p>
-          <p>Semoga membantu!</p>
-          </div>
-
-          <!-- column -->
-        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-
-        	<br>
-
-         <!-- Links -->
-          <h6 class="text-uppercase font-weight-bold">Products</h6>
-          <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-
-           <p>
-           	<a class="dark-grey-text" href="#!">MENU</a>
-          </p>
-
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
           <p>
-            <a class="dark-grey-text" href="#!">Location</a>
+            <a href="#!">Menu</a>
           </p>
-
           <p>
-            <a class="dark-grey-text" href="#!">Culinary</a>
+            <a href="#!">Location</a>
           </p>
-
           <p>
-            <a class="dark-grey-text" href="#!">Souvenirs</a>
+            <a href="#!">Culinary</a>
+          </p>
+          <p>
+            <a href="#!">Souvenirs</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <hr class="w-100 clearfix d-md-none">
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 font-weight-bold">Location</h6>
+          <p>
+            <a href="#!">Bandar Lampung</a>
+          </p>
+          <p>
+            <a href="#!">Lampung Selatan</a>
+          </p>
+          <p>
+            <a href="#!">Lampung Barat</a>
           </p>
 
         </div>
 
-        <br>
+         <!-- Grid column -->
+        <hr class="w-100 clearfix d-md-none">
 
-        <!-- column -->
-        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-
-        	<br>
-
-        	<!-- Links -->
-          <h6 class="text-uppercase font-weight-bold">XXXXX</h6>
-          <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-
-          <p>
-            <a class="dark-grey-text" href="#!">XXXXX</a>
-          </p>
-
-          <p>
-            <a class="dark-grey-text" href="#!">XXXXX</a>
-          </p>
-
-          <p>
-            <a class="dark-grey-text" href="#!">SXXXX</a>
-          </p>
-
-          <p>
-            <a class="dark-grey-text" href="#!">XXXXX</a>
-          </p>
-
-        </div>
-
-         <!-- column -->
-        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-
-        	<br>
-
-          <!-- Links -->
-          <h6 class="text-uppercase font-weight-bold">Contact</h6>
-          <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
           <p>
             <i class="fa fa-home mr-3"></i> Lampung Selatan </p>
           <p>
-            <i class="fa fa-envelope mr-3"></i> KuyLampung.com</p>
+            <i class="fa fa-envelope mr-3"></i> Kuy Lampung </p>
           <p>
             <i class="fa fa-phone mr-3"></i> 085789943472 </p>
           <p>
-            <i class="fa fa-print mr-3"></i> 0721 - 888888 </p>
+            <i class="fa fa-print mr-3"></i>  0721 - 888888 </p>
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Footer links -->
+
+      <hr>
+
+      <!-- Grid row -->
+      <div class="row d-flex align-items-center">
+
+        <!-- Grid column -->
+        <div class="col-md-7 col-lg-8">
+
+          <!--Copyright-->
+          <p class="text-center text-md-left">© 2018 Copyright:
+              <strong> Kuy Lampung </strong>
+            </a>
+          </p>
 
         </div>
+        <!-- Grid column -->
 
-        </div>
-
-        </div>
-
-        </div>
-
-        <!-- Copyright -->
-    	<div class="footer-copyright text-center text-black-50 py-3">© 2018 Copyright:
-     	 <a class="dark-grey-text"> KuyLampung.com</a>
-     	 </div>
-
-     	 </footer>
-		</body>
 		</html>
