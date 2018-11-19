@@ -9,7 +9,7 @@
                 <div class="modal-body">
                     <?php
                       echo validation_errors('<div class="alert alert-warning">,</div>');
-                      echo form_open(base_url('admin/daerah'));
+                      echo form_open_multipart(base_url('admin/daerah'));
                     ?>
                     <div class="col-md-4">
                         <div class="form-group">
@@ -18,17 +18,33 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4">
+                    <div class="col-md-8">
                       <div class="form-group form-group-lg">
-                        <label>Alamat</label>
+                        <label>Alamat Dinas Kebudayaan dan Pariwisata</label>
                         <input type="text" name="alamat" class"form-control" placeholder="Alamat" required>
                       </div>
                     </div>
 
-                      <div class="form-group">
+                    <div class="col-md-4">
+                      <div class="form-group form-group-lg">
+                        <label>Nomor Telepon</label>
+                        <input type="text" name="telepon" class"form-control" placeholder="Nomor Telepon" required>
+                      </div>
+                    </div>
+
+                    <div class="col-md-4">
+                      <div class="form-group form-group-lg">
+                        <label>Logo Daerah</label>
+                        <input type="file" name="logo_daerah" class"form-control" placeholder="Alamat" required>
+                      </div>
+                    </div>
+
+                    <div class="col-md-12">
+                      <div class="form-group form-group-lg">
                         <input type="submit" name="submit" class="btn btn-primary btn-lg" value="Save">
                         <input type="reset" name="reset" class="btn btn-default btn-lg" value="Reset">
                       </div>
+                    </div>
 
                     <?php
                       echo form_close();
