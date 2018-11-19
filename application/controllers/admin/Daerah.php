@@ -131,7 +131,7 @@ class Daerah extends CI_Controller {
       $this->load->view('admin/layout/wrapper',$data);
     }
     public function delete($id_daerah){
-      $daerah = $this->daerah_model->deatail($id_daerah);
+      $daerah = $this->daerah_model->detail($id_daerah);
         if ($daerah->logo_daerah != "") {
           unlink('./assets/upload/logo/'.$daerah->logo_daerah);
           unlink('./assets/upload/logo/thumbs/'.$daerah->logo_daerah);
