@@ -16,7 +16,7 @@
       width: 100%;
       height: 60%;
   }
-.container .btn {
+.container .btna {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -32,13 +32,24 @@
     text-align: center;
 }
 
-.container .btn:hover {
-    background-color: #f47142;
+.container .btna:hover {
+    background-color: #f4511e;
 }
 
 .btn {
-  background-color: #f4511e;
-  border: none;
+ border: 2px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btna {
+  background-color: #f95a04;
+  border: 2px solid white;
   color: white;
   padding: 16px 32px;
   text-align: center;
@@ -48,7 +59,7 @@
   transition: 0.3s;
 }
 
-.btn:hover {opacity: 1}  
+.btna :hover {opacity: 1}  
 
 #runningtext{
     width:  100%;
@@ -90,7 +101,7 @@
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="<?=base_url()?>assets/img/lamsel/trikora/5.jpg" alt="Los Angeles" width="1100" height="500">
-      <a href="<?php echo site_url('location/lamsel'); ?>"button class="btn">Pilih</a></button>
+      <a href="<?php echo site_url('location/lamsel'); ?>"button class="btna">Pilih</a></button>
       <div class="carousel-caption">
         <h3>Kebun Karet Trikora PTPN-7</h3>
         <p>Kabupaten Lampung Selatan</p>
@@ -98,7 +109,7 @@
     </div>
     <div class="carousel-item">
       <img src="<?=base_url()?>assets/img/lamsel/embe/4.png" alt="Chicago" width="1100" height="500">
-      <a href="<?php echo site_url('location/lamsel'); ?>"button class="btn">Pilih</a></button>
+      <a href="<?php echo site_url('location/lamsel'); ?>"button class="btna">Pilih</a></button>
       <div class="carousel-caption">
         <h3>Pantai Embe</h3>
         <p>Kabupaten Lampung Selatan</p>
@@ -106,7 +117,7 @@
     </div>
     <div class="carousel-item">
       <img src="<?=base_url()?>assets/img/lamsel/siger.jpeg" alt="New York" width="1100" height="500">
-      <a href="<?php echo site_url('location/lamsel'); ?>"button class="btn">Pilih</a></button>
+      <a href="<?php echo site_url('location/lamsel'); ?>"button class="btna">Pilih</a></button>
       <div class="carousel-caption">
         <h3>Menara Siger</h3>
         <p>Kabupaten Lampung Selatan</p>
@@ -141,7 +152,7 @@
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="<?=base_url()?>assets/img/balam/bukit3.jpg" alt="Los Angeles" width="1100" height="500">
-      <a href="<?php echo site_url('location/balam'); ?>"button class="btn">Pilih</a></button>
+      <a href="<?php echo site_url('location/balam'); ?>"button class="btna">Pilih</a></button>
       <div class="carousel-caption">
         <h3>Bukit Sakura</h3>
         <p>Kota Bandar Lampung</p>
@@ -149,7 +160,7 @@
     </div>
     <div class="carousel-item">
       <img src="<?=base_url()?>assets/img/balam/lembah1.jpg" alt="Chicago" width="1100" height="500">
-      <a href="<?php echo site_url('location/balam'); ?>"button class="btn">Pilih</a></button>
+      <a href="<?php echo site_url('location/balam'); ?>"button class="btna">Pilih</a></button>
       <div class="carousel-caption">
         <h3>Lembah Hijau</h3>
         <p>Kota Bandar Lampung</p>
@@ -157,7 +168,7 @@
     </div>
     <div class="carousel-item">
       <img src="<?=base_url()?>assets/img/balam/museum1.jpg" alt="New York" width="1100" height="500">
-      <a href="<?php echo site_url('location/balam'); ?>"button class="btn">Pilih</a></button>
+      <a href="<?php echo site_url('location/balam'); ?>"button class="btna">Pilih</a></button>
       <div class="carousel-caption">
         <h3>Museum Lampung</h3>
         <p>Kota Bandar Lampung</p>
@@ -194,7 +205,7 @@
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="<?=base_url()?>assets/img/lambar/angin3.jpg" alt="Los Angeles" width="1100" height="500">
-      <a href="<?php echo site_url('location/lambar'); ?>"button class="btn">Pilih</a></button>
+      <a href="<?php echo site_url('location/lambar'); ?>"button class="btna">Pilih</a></button>
       <div class="carousel-caption">
 
 
@@ -204,7 +215,7 @@
     </div>
     <div class="carousel-item">
       <img src="<?=base_url()?>assets/img/lambar/baris1.jpg" alt="Chicago" width="1100" height="500">
-      <a href="<?php echo site_url('location/lambar'); ?>"button class="btn">Pilih</a></button>
+      <a href="<?php echo site_url('location/lambar'); ?>"button class="btna">Pilih</a></button>
       <div class="carousel-caption">
         <h3>Taman Nasional Bukit Barisan</h3>
         <p>Kabupaten Lampung Barat</p>
@@ -212,7 +223,7 @@
     </div>
     <div class="carousel-item">
       <img src="<?=base_url()?>assets/img/lambar/danauranaux2.jpg" alt="New York" width="1100" height="500">
-      <a href="<?php echo site_url('location/lambar'); ?>"button class="btn">Pilih</a></button>
+      <a href="<?php echo site_url('location/lambar'); ?>"button class="btna">Pilih</a></button>
       <div class="carousel-caption">
         <h3>Danau Ranau</h3>
         <p>Kabupaten Lampung Barat</p>
