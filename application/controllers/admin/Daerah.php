@@ -21,7 +21,7 @@ class Daerah extends CI_Controller {
         if(! $this->upload->do_upload('logo_daerah')) {
 			     $data = array('title'   => 'Data Daerah',
                          'daerah'  => $daerah,
-                         'error'		=> $this->upload->display_errors(),
+                         'error'	 => $this->upload->display_errors(),
                          'isi'     => 'admin/daerah/list'
                     );
 			     $this->load->view('admin/layout/wrapper',$data);
@@ -46,7 +46,8 @@ class Daerah extends CI_Controller {
              $data = array('nama_daerah'   => $i->post('nama_daerah'),
                            'alamat'        => $i->post('alamat'),
                            'telepon'       => $i->post('telepon'),
-                           'logo_daerah'   => $upload_data['uploads']['file_name']
+                           'logo_daerah'   => $upload_data['uploads']['file_name'],
+                           'keterangan'    => $i->post('keterangan')
                           );
             $this->daerah_model->tambah($data);
             $this->session->set_flashdata('SUKSES','Data Telah Ditambahkan');
@@ -106,7 +107,8 @@ class Daerah extends CI_Controller {
                              'nama_daerah'   => $i->post('nama_daerah'),
                              'alamat'        => $i->post('alamat'),
                              'telepon'       => $i->post('telepon'),
-                             'logo_daerah'   => $upload_data['uploads']['file_name']
+                             'logo_daerah'   => $upload_data['uploads']['file_name'],
+                             'keterangan'    => $i->post('keterangan')
                             );
               $this->daerah_model->edit($data);
               $this->session->set_flashdata('SUKSES','Data Telah Ditambahkan');
@@ -117,7 +119,8 @@ class Daerah extends CI_Controller {
           $data = array('id_daerah'     => $id_daerah,
                         'nama_daerah'   => $i->post('nama_daerah'),
                         'alamat'        => $i->post('alamat'),
-                        'telepon'       => $i->post('telepon')
+                        'telepon'       => $i->post('telepon'),
+                        'keterangan'    => $i->post('keterangan')
                        );
          $this->daerah_model->edit($data);
          $this->session->set_flashdata('SUKSES','Data Telah Ditambahkan');
