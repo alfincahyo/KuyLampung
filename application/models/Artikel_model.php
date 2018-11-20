@@ -8,9 +8,10 @@ class Artikel_model extends CI_Model {
 	  }
 
     public function listing(){
-        $this->db->select('artikel.*, daerah.nama_daerah');
+        $this->db->select('artikel.*, daerah.nama_daerah, admin.username');
 				$this->db->from('artikel');
 				$this->db->join('daerah','daerah.id_daerah = artikel.id_daerah','LEFT');
+	    			$this->db->join('admin','admin.id_daerah = artikel.id_daerah','LEFT');
 				$this->db->order_by('id_artikel','DESC');
 				$query = $this->db->get();
         return $query->result();
