@@ -77,7 +77,7 @@ h1 {
 <img src="<?=base_url()?>assets/img/caropagebaru/logobdl.png" class="img-thumbnail" alt="Bandar Lampung" height="200px" width="200px" style='background-color: #f2f3f4; border: none;'>
 <h2 style="color: black; background-color: #f2f3f4;border-color: black; margin-top: -200px; margin-right: 0px; margin-left: 220px; font-style: bold;">Kota Bandar Lampung</h2>
 <hr>
-<h5 style="margin-right: 100px; margin-left: 220px; font-style: italic;">"Lampung Selatan adalah salah satu kabupaten dari provinsi Lampung yang terletak di sepanjang pesisir Teluk Lampung. Di kabupaten ini pula terdapat pelabuhan Bakauheni yang menjadi gerbang masuk menuju pulau Sumatera dari pulau Jawa dan sebaliknya. Karena posisinya yang berada di pesisir pantai maka kabupaten Lampung Selatan ini mendapatkan julukan Sydney van Andalas." </h5>
+<h5 style="margin-right: 100px; margin-left: 220px; font-style: italic;">"Kota Bandar Lampung berpotensi untuk menjadi Kota Metropolis. Seiring dengan program pada tahun 2015, dimana Kota Bandar Lampung dan Kota Metro merupakan kawasan yang dipetakan Kementerian Pekerjaan Umum dan Perumahan Rakyat (Kemenpupera) berpotensi sebagai Area Metropolitan, terkhusus yang dalam cetak biru Wilayah Pengembangan Strategis Merak-Bakauheni-Bandar Lampung-Palembang Tanjung Api Api. Keunggulan Kota Metropolis ini adalah sebagai menjadi pusat kegiatan pemerintahan, perdagangan dan jasa, industri, pariwisata serta pendidikan." </h5>
 <h2 style="margin-top: 50px;">Destinasi Wisata</h2>
 <p style="font-style: italic;">"Kuy Lampung! Jelajahi Kekayaan Yang Di Miliki Indonesia, Cintai Alam & Negerimu!"</p>
 
