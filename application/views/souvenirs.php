@@ -5,7 +5,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Souvenirs</title>
+	<title>Souveniers</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/css/home.css">
 	<link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/css/oleh.css">
@@ -27,12 +27,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		OLEH-OLEH KHAS LAMPUNG
 	</div>
 	</div>
+
+	
   
 	<div id="demo" class="carousel slide" data-ride="carousel">
 		<div class="carousel-inner" >
 			<div class="carousel-item active">
-				<div class="row
-		 m-1">
+				<div class="row m-1">
 
 
 					<div class="col-sm-3 p-3 " >
@@ -52,8 +53,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			</div>
 
 			<div class="carousel-item">
-				<div class="row
-		 m-1">
+				<div class="row m-1">
 
 
 					<div class="col-sm-3 p-3 " >
@@ -72,9 +72,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				</div>
 			</div>
 
-						<div class="carousel-item">
-				<div class="row
-		 m-1">
+			<div class="carousel-item">
+				<div class="row m-1">
 
 					<div class="col-sm-3 p-3 " >
 						<img src="<?=base_url()?>assets/img/souveniers/isi9.jpg" class="img-thumbnail" alt="Cinque Terre" width="100%" ;>
@@ -126,22 +125,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<br><br>
 			<div class="row">
 					<div class="col-sm-4" >
-						<img src="<?=base_url()?>assets/img/souveniers/money.png" alt="uang" height="50x" width="50px";>	
+						<img src="<?=base_url()?>assets/img/souveniers/money.png" alt="uang" height="50x" ;>	
 						<br><br>
 						<h6>40.000 - 60.000</h6>
 					</div>
-					<div class="col-sm-4" >
-						<img src="<?=base_url()?>assets/img/souveniers/star.png" alt="bintang" height="25px" width="25px";>	
-						<img src="<?=base_url()?>assets/img/souveniers/star.png" alt="bintang" height="25px" width="25px";>	
-						<img src="<?=base_url()?>assets/img/souveniers/star.png" alt="bintang" height="25px" width="25px";>	
-						<img src="<?=base_url()?>assets/img/souveniers/star.png" alt="bintang" height="25px" width="25px";>	
-						<img src="<?=base_url()?>assets/img/souveniers/emptystar.png" alt="bintang setengah" height="25px" width="25px"  margin-bottom = "20px";>	
-						<br><img src="<?=base_url()?>assets/img/souveniers/none.png"  height="50px" width="50px";>	
-						<br>
+					<div class="col-sm-4" >	
+						<img src="<?=base_url()?>assets/img/souveniers/allstar.png" alt="bintang" height="50px" ;>
+						<br><br>
 						<h6>7.9 / 10</h6>
 					</div>
 					<div class="col-sm-4" >
-						<img src="<?=base_url()?>assets/img/souveniers/mytime.png" alt="waktu" height="50x" width="50px";>		
+						<img src="<?=base_url()?>assets/img/souveniers/mytime.png" alt="waktu" height="50x" ;>		
 						<br><br>
 						<h6>07.00 - 20.00</h6>
 				</div>
@@ -161,22 +155,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<br><br>
 			<div class="row">
 			<div class="col-sm-4" >
-					<img src="<?=base_url()?>assets/img/souveniers/money.png" alt="uang" height="50x" width="50px";>
+					<img src="<?=base_url()?>assets/img/souveniers/money.png" alt="uang" height="50x" ;>
 					<br><br>
 					<h6>50.000 - 100.000</h6>
 				</div>
 				<div class="col-sm-4" >
-					<img src="<?=base_url()?>assets/img/souveniers/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/souveniers/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/souveniers/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/souveniers/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/souveniers/halfstar.png" alt="bintang setengah" height="25px" width="25px"  margin-bottom = "20px";>	
-					<br><img src="<?=base_url()?>assets/img/souveniers/none.png"  height="50px" width="50px";>	
+					<img src="<?=base_url()?>assets/img/souveniers/allstar.png" alt="bintang" height="50px" ;>	
 					<br>
 					<h6>8.7 / 10</h6>
 				</div>
 				<div class="col-sm-4" >
-					<img src="<?=base_url()?>assets/img/souveniers/mytime.png" alt="waktu" height="50x" width="50px";>
+					<img src="<?=base_url()?>assets/img/souveniers/mytime.png" alt="waktu" height="50x" ;>
 					<br><br>
 					<h6>07.00 - 18.00</h6>
 				</div>
@@ -199,22 +188,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<br><br>
 			<div class="row">
 				<div class="col-sm-4" >
-					<img src="<?=base_url()?>assets/img/souveniers/money.png" alt="uang" height="50x" width="50px";>
+					<img src="<?=base_url()?>assets/img/souveniers/money.png" alt="uang" height="50x" ;>
 					<br><br>
 					<h6>40.000 - 60.000</h6>
 				</div>
 				<div class="col-sm-4" >
-					<img src="<?=base_url()?>assets/img/souveniers/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/souveniers/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/souveniers/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/souveniers/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/souveniers/halfstar.png" alt="bintang setengah" height="25px" width="25px"  margin-bottom = "20px";>	
-					<br><img src="<?=base_url()?>assets/img/souveniers/none.png"  height="50px" width="50px";>	
+					<img src="<?=base_url()?>assets/img/souveniers/allstar.png" alt="bintang" height="50px" ;>
 					<br>
 					<h6>8.3 / 10</h6>
 				</div>
 				<div class="col-sm-4" >
-					<img src="<?=base_url()?>assets/img/souveniers/mytime.png" alt="waktu" height="50x" width="50px";>
+					<img src="<?=base_url()?>assets/img/souveniers/mytime.png" alt="waktu" height="50x" ;>
 					<br><br>
 					<h6>07.00 - 20.00</h6>
 				</div>
@@ -234,22 +218,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<br><br>
 			<div class="row">
 				<div class="col-sm-4" >
-					<img src="<?=base_url()?>assets/img/souveniers/money.png" alt="uang" height="50x" width="50px";>
+					<img src="<?=base_url()?>assets/img/souveniers/money.png" alt="uang" height="50x" ;>
 					<br><br>
 					<h6>20.000 - 100.000</h6>
 				</div>
 				<div class="col-sm-4" >
-					<img src="<?=base_url()?>assets/img/souveniers/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/souveniers/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/souveniers/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/souveniers/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/souveniers/halfstar.png" alt="bintang setengah" height="25px" width="25px"  margin-bottom = "20px";>	
-					<br><img src="<?=base_url()?>assets/img/souveniers/none.png"  height="50px" width="50px";>	
-					<br>
+					<img src="<?=base_url()?>assets/img/souveniers/allstar.png" alt="bintang" height="50px" ;>
+					<br><br>
 					<h6>8.7 / 10</h6>
 				</div>
 				<div class="col-sm-4" >
-					<img src="<?=base_url()?>assets/img/souveniers/mytime.png" alt="waktu" height="50x" width="50px";>
+					<img src="<?=base_url()?>assets/img/souveniers/mytime.png" alt="waktu" height="50x" ;>
 					<br><br>
 					<h6>07.00 - 18.00</h6>
 				</div>
@@ -272,22 +251,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<br><br>
 			<div class="row">
 				<div class="col-sm-4" >
-					<img src="<?=base_url()?>assets/img/souveniers/money.png" alt="uang" height="50x" width="50px";>
+					<img src="<?=base_url()?>assets/img/souveniers/money.png" alt="uang" height="50x" ;>
 					<br><br>
 					<h6>40.000 - 60.000</h6>
 				</div>
 				<div class="col-sm-4" >
-					<img src="<?=base_url()?>assets/img/souveniers/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/souveniers/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/souveniers/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/souveniers/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/souveniers/halfstar.png" alt="bintang setengah" height="25px" width="25px"  margin-bottom = "20px";>	
-					<br><img src="<?=base_url()?>assets/img/souveniers/none.png"  height="50px" width="50px";>	
-					<br>
+					<img src="<?=base_url()?>assets/img/souveniers/allstar.png" alt="bintang" height="50px" ;>
+					<br><br>
 					<h6>8.3 / 10</h6>
 				</div>
 				<div class="col-sm-4" >
-					<img src="<?=base_url()?>assets/img/souveniers/mytime.png" alt="waktu" height="50x" width="50px";>
+					<img src="<?=base_url()?>assets/img/souveniers/mytime.png" alt="waktu" height="50x" ;>
 					<br><br>
 					<h6>07.00 - 20.00</h6>
 				</div>
@@ -306,22 +280,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<br><br>
 			<div class="row">
 			<div class="col-sm-4">
-					<img src="<?=base_url()?>assets/img/souveniers/money.png" alt="uang" height="50x" width="50px";>
+					<img src="<?=base_url()?>assets/img/souveniers/money.png" alt="uang" height="50x" ;>
 					<br><br>
 					<h6>185.000</h6>
 				</div>
 				<div class="col-sm-4" >
-					<img src="<?=base_url()?>assets/img/souveniers/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/souveniers/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/souveniers/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/souveniers/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/souveniers/emptystar.png" alt="bintang setengah" height="25px" width="25px"  margin-bottom = "20px";>	
-					<br><img src="<?=base_url()?>assets/img/souveniers/none.png"  height="50px" width="50px";>	
-					<br>
+					<img src="<?=base_url()?>assets/img/souveniers/allstar.png" alt="bintang" height="50px" ;>
+					<br><br>
 					<h6>8.0 / 10</h6>
 				</div>
 				<div class="col-sm-4" >
-					<img src="<?=base_url()?>assets/img/souveniers/mytime.png" alt="waktu" height="50x" width="50px";>
+					<img src="<?=base_url()?>assets/img/souveniers/mytime.png" alt="waktu" height="50x" ;>
 					<br><br>
 					<h6>07.00 - 18.00</h6>
 				</div>
@@ -343,22 +312,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<br><br>
 			<div class="row">
 				<div class="col-sm-4" >
-					<img src="<?=base_url()?>assets/img/souveniers/money.png" alt="uang" height="50x" width="50px";>
+					<img src="<?=base_url()?>assets/img/souveniers/money.png" alt="uang" height="50x" ;>
 					<br><br>
 					<h6>25.000 - 45.000</h6>
 				</div>
 				<div class="col-sm-4" >
-					<img src="<?=base_url()?>assets/img/souveniers/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/souveniers/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/souveniers/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/souveniers/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/souveniers/halfstar.png" alt="bintang setengah" height="25px" width="25px"  margin-bottom = "20px";>	
-					<br><img src="<?=base_url()?>assets/img/souveniers/none.png"  height="50px" width="50px";>	
-					<br>
+					<img src="<?=base_url()?>assets/img/souveniers/allstar.png" alt="bintang" height="50px" ;>
+					<br><br>
 					<h6>8.5 / 10</h6>
 				</div>
 				<div class="col-sm-4" >
-					<img src="<?=base_url()?>assets/img/souveniers/mytime.png" alt="waktu" height="50x" width="50px";>
+					<img src="<?=base_url()?>assets/img/souveniers/mytime.png" alt="waktu" height="50x" ;>
 					<br><br>
 					<h6>08.00 - 17.00</h6>
 				</div>
@@ -377,22 +341,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<br><br>
 			<div class="row">
 			<div class="col-sm-4">
-					<img src="<?=base_url()?>assets/img/souveniers/money.png" alt="uang" height="50x" width="50px";>
+					<img src="<?=base_url()?>assets/img/souveniers/money.png" alt="uang" height="50x" ;>
 					<br><br>
 					<h6>125.000 - 225.000</h6>
 				</div>
 				<div class="col-sm-4" >
-					<img src="<?=base_url()?>assets/img/souveniers/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/souveniers/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/souveniers/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/souveniers/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/souveniers/emptystar.png" alt="bintang setengah" height="25px" width="25px"  margin-bottom = "20px";>	
-					<br><img src="<?=base_url()?>assets/img/souveniers/none.png"  height="50px" width="50px";>	
-					<br>
+					<img src="<?=base_url()?>assets/img/souveniers/allstar.png" alt="bintang" height="50px" ;>	
+					<br><br>
 					<h6>9.1 / 10</h6>
 				</div>
 				<div class="col-sm-4" >
-					<img src="<?=base_url()?>assets/img/souveniers/mytime.png" alt="waktu" height="50x" width="50px";>
+					<img src="<?=base_url()?>assets/img/souveniers/mytime.png" alt="waktu" height="50x" ;>
 					<br><br>
 					<h6>10.00 - 19.00</h6>
 				</div>
@@ -414,22 +373,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<br><br>
 			<div class="row">
 				<div class="col-sm-4" >
-					<img src="<?=base_url()?>assets/img/souveniers/money.png" alt="uang" height="50x" width="50px";>
+					<img src="<?=base_url()?>assets/img/souveniers/money.png" alt="uang" height="50x" ;>
 					<br><br>
 					<h6>10.000 - 100.000</h6>
 				</div>
 				<div class="col-sm-4" >
-					<img src="<?=base_url()?>assets/img/souveniers/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/souveniers/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/souveniers/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/souveniers/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/souveniers/emptystar.png" alt="bintangkosong" height="25px" width="25px"  margin-bottom = "20px";>	
-					<br><img src="<?=base_url()?>assets/img/souveniers/none.png"  height="50px" width="50px";>	
-					<br>
+					<img src="<?=base_url()?>assets/img/souveniers/allstar.png" alt="bintang" height="50px" ;>
+					<br><br>
 					<h6>8.0 / 10</h6>
 				</div>
 				<div class="col-sm-4" >
-					<img src="<?=base_url()?>assets/img/souveniers/mytime.png" alt="waktu" height="50x" width="50px";>
+					<img src="<?=base_url()?>assets/img/souveniers/mytime.png" alt="waktu" height="50x" ;>
 					<br><br>
 					<h6>09.00 -17.00</h6>
 				</div>
@@ -448,22 +402,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<br><br>
 			<div class="row">
 			<div class="col-sm-4">
-					<img src="<?=base_url()?>assets/img/souveniers/money.png" alt="uang" height="50x" width="50px";>
+					<img src="<?=base_url()?>assets/img/souveniers/money.png" alt="uang" height="50x" ;>
 					<br><br>
 					<h6>5.000 - 25.000</h6>
 				</div>
 				<div class="col-sm-4" >
-					<img src="<?=base_url()?>assets/img/souveniers/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/souveniers/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/souveniers/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/souveniers/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/souveniers/emptystar.png" alt="bintangkosong" height="25px" width="25px"  margin-bottom = "20px";>	
-					<br><img src="<?=base_url()?>assets/img/souveniers/none.png"  height="50px" width="50px";>	
+					<img src="<?=base_url()?>assets/img/souveniers/allstar.png" alt="bintang" height="50px" ;>
 					<br>
 					<h6>7.9 / 10</h6>
 				</div>
 				<div class="col-sm-4" >
-					<img src="<?=base_url()?>assets/img/souveniers/mytime.png" alt="waktu" height="50x" width="50px";>
+					<img src="<?=base_url()?>assets/img/souveniers/mytime.png" alt="waktu" height="50x" ;>
 					<br><br>
 					<h6>08.00 - 17.00</h6>
 				</div>
@@ -485,22 +434,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<br><br>
 			<div class="row">
 				<div class="col-sm-4" >
-					<img src="<?=base_url()?>assets/img/souveniers/money.png" alt="uang" height="50x" width="50px";>
+					<img src="<?=base_url()?>assets/img/souveniers/money.png" alt="uang" height="50x" ;>
 					<br><br>
 					<h6>100.000 - 250.000</h6>
 				</div>
 				<div class="col-sm-4" >
-					<img src="<?=base_url()?>assets/img/souveniers/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/souveniers/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/souveniers/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/souveniers/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/souveniers/halfstar.png" alt="bintang setengah" height="25px" width="25px"  margin-bottom = "20px";>	
-					<br><img src="<?=base_url()?>assets/img/souveniers/none.png"  height="50px" width="50px";>	
-					<br>
+					<img src="<?=base_url()?>assets/img/souveniers/allstar.png" alt="bintang" height="50px" ;>
+					<br><br>
 					<h6>8.7 / 10</h6>
 				</div>
 				<div class="col-sm-4" >
-					<img src="<?=base_url()?>assets/img/souveniers/mytime.png" alt="waktu" height="50x" width="50px";>
+					<img src="<?=base_url()?>assets/img/souveniers/mytime.png" alt="waktu" height="50x" ;>
 					<br><br>
 					<h6>09.00 - 20.00</h6>
 				</div>
@@ -519,22 +463,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<br><br>
 			<div class="row">
 			<div class="col-sm-4">
-					<img src="<?=base_url()?>assets/img/souveniers/money.png" alt="uang" height="50x" width="50px";>
+					<img src="<?=base_url()?>assets/img/souveniers/money.png" alt="uang" height="50x" ;>
 					<br><br>
 					<h6>25.000 - 55.000</h6>
 				</div>
 				<div class="col-sm-4" >
-					<img src="<?=base_url()?>assets/img/souveniers/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/souveniers/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/souveniers/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/souveniers/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/souveniers/emptystar.png" alt="bintang setengah" height="25px" width="25px"  margin-bottom = "20px";>	
-					<br><img src="<?=base_url()?>assets/img/souveniers/none.png"  height="50px" width="50px";>	
-					<br>
+					<img src="<?=base_url()?>assets/img/souveniers/allstar.png" alt="bintang" height="50px" ;>
+					<br><br>
 					<h6>7.8 / 10</h6>
 				</div>
 				<div class="col-sm-4" >
-					<img src="<?=base_url()?>assets/img/souveniers/mytime.png" alt="waktu" height="50x" width="50px";>
+					<img src="<?=base_url()?>assets/img/souveniers/mytime.png" alt="waktu" height="50x" ;>
 					<br><br>
 					<h6>08.00 - 17.00</h6>
 				</div>
@@ -556,22 +495,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<br><br>
 			<div class="row">
 				<div class="col-sm-4" >
-					<img src="<?=base_url()?>assets/img/souveniers/money.png" alt="uang" height="50x" width="50px";>
+					<img src="<?=base_url()?>assets/img/souveniers/money.png" alt="uang" height="50x" ;>
 					<br><br>
 					<h6>40.000 - 150.000</h6>
 				</div>
 				<div class="col-sm-4" >
-					<img src="<?=base_url()?>assets/img/souveniers/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/souveniers/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/souveniers/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/souveniers/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/souveniers/halfstar.png" alt="bintang setengah" height="25px" width="25px"  margin-bottom = "20px";>	
-					<br><img src="<?=base_url()?>assets/img/souveniers/none.png"  height="50px" width="50px";>	
-					<br>
+					<img src="<?=base_url()?>assets/img/souveniers/allstar.png" alt="bintang" height="50px" ;>
+					<br><br>
 					<h6>8.9 / 10</h6>
 				</div>
 				<div class="col-sm-4" >
-					<img src="<?=base_url()?>assets/img/souveniers/mytime.png" alt="waktu" height="50x" width="50px";>
+					<img src="<?=base_url()?>assets/img/souveniers/mytime.png" alt="waktu" height="50x" ;>
 					<br><br>
 					<h6>09.00 - 16.00</h6>
 				</div>
@@ -590,24 +524,20 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<br><br>
 			<div class="row">
 			<div class="col-sm-4">
-					<img src="<?=base_url()?>assets/img/souveniers/money.png" alt="uang" height="50x" width="50px";>
+					<img src="<?=base_url()?>assets/img/souveniers/money.png" alt="uang" height="50x" ;>
 					<br><br>
 					<h6>100.000 - 175.000</h6>
 				</div>
 				<div class="col-sm-4" >
-					<img src="<?=base_url()?>assets/img/souveniers/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/souveniers/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/souveniers/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/souveniers/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/souveniers/emptystar.png" alt="bintang setengah" height="25px" width="25px"  margin-bottom = "20px";>	
-					<br><img src="<?=base_url()?>assets/img/souveniers/none.png"  height="50px" width="50px";>	
-					<br>
+					<img src="<?=base_url()?>assets/img/souveniers/allstar.png" alt="bintang" height="50px" ;>	
+					<br><br>
 					<h6>9.3 / 10</h6>
 				</div>
 				<div class="col-sm-4" >
-					<img src="<?=base_url()?>assets/img/souveniers/mytime.png" alt="waktu" height="50x" width="50px";>
+					<img src="<?=base_url()?>assets/img/souveniers/mytime.png" alt="waktu" height="50x" ;>
 					<br><br>
 					<h6>10.00 - 17.00</h6>
+					<br>
 				</div>
 			</div>
 		</div>
