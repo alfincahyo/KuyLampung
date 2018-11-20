@@ -25,7 +25,7 @@
              <th>Judul</th>
              <th>Isi</th>
              <th>Tanggal</th>
-             <th>Admin</th>
+             <th>Author</th>
              <th></th>
          </tr>
      </thead>
@@ -37,7 +37,7 @@
              <td><?php echo $artikel->judul ?></td>
              <td><?php echo $artikel->isi ?></td>
              <td><?php echo $artikel->tanggal ?></td>
-             <td><?php echo $artikel->admin ?></td>
+             <td><?php echo $artikel->username ?></td>
              <td><a href="<?php echo base_url('admin/artikel/edit/'.$artikel->id_artikel) ?>" class="btn btn-primary btn-sm" title="Edit Artikel"><i class="fa fa-edit"></i></a>
                <?php include('delete.php'); ?>
              </td>
