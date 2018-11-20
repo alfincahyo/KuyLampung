@@ -89,15 +89,15 @@
 
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="<?=base_url()?>assets/img/lamsel/batugranit.jpg" alt="Los Angeles" width="1100" height="500">
+      <img src="<?=base_url()?>assets/img/lamsel/trikora/5.jpg" alt="Los Angeles" width="1100" height="500">
       <a href="<?php echo site_url('location/lamsel'); ?>"button class="btn">Pilih</a></button>
       <div class="carousel-caption">
-        <h3>Batu Granit Tanjung Bintang</h3>
+        <h3>Kebun Karet Trikora PTPN-7</h3>
         <p>Kabupaten Lampung Selatan</p>
       </div>   
     </div>
     <div class="carousel-item">
-      <img src="<?=base_url()?>assets/img/lamsel/embe.jpg" alt="Chicago" width="1100" height="500">
+      <img src="<?=base_url()?>assets/img/lamsel/embe/4.png" alt="Chicago" width="1100" height="500">
       <a href="<?php echo site_url('location/lamsel'); ?>"button class="btn">Pilih</a></button>
       <div class="carousel-caption">
         <h3>Pantai Embe</h3>
@@ -121,13 +121,13 @@
   </a>
 
    <div class="row">
-      <div class="col-3">
-      <img style="margin-left: 50%; border:none;" src="<?=base_url()?>assets/img/caropagebaru/logolamsel.png" class="img-thumbnail" alt="Bandar Lampung" height="100" width="100";>
+      <div class="col-3" style="background-color: #f2f3f4">
+      <img style="margin-left: 50%; margin-top:5%; border:none ; background-color: #f2f3f4" src="<?=base_url()?>assets/img/caropagebaru/logolamsel.png" class="img-thumbnail" alt="Bandar Lampung" height="100" width="100";>
     </div>
-    <div class="col-9">
+    <div class="col-9" style="background-color: #f2f3f4; text-align: justify;">
       <br>
       <p>Dinas Kebudayaan dan Pariwisata Kabupaten Lampung Selatan</p>
-       <p>Jl. Kusuma Bangsa</p>
+       <p>Jl. Kusuma Bangsa</p><br>
 
     </div>
     </div>
@@ -172,10 +172,10 @@
   </a>
 
    <div class="row">
-      <div class="col-3">
-      <img style="margin-left: 50%; margin-top: 10%; border:none;" src="<?=base_url()?>assets/img/caropagebaru/logobdl.png" class="img-thumbnail" alt="Bandar Lampung" height="100" width="100";>
+      <div class="col-3" style="background-color: #f2f3f4">
+      <img style="margin-left: 50%; margin-top: 10%; border:none; background-color: #f2f3f4" src="<?=base_url()?>assets/img/caropagebaru/logobdl.png" class="img-thumbnail" alt="Bandar Lampung" height="100" width="100";>
     </div>
-    <div class="col-9">
+    <div class="col-9" style="background-color: #f2f3f4; text-align: justify;">
       <br>
        <p>Dinas Kebudayaan dan Pariwisata Kota Bandar Lampung</p>
      <p>Jl. Wolter Monginsidi No.120</p>
@@ -193,7 +193,7 @@
 <div id="demo2" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="<?=base_url()?>assets/img/lambar/angin1.jpg" alt="Los Angeles" width="1100" height="500">
+      <img src="<?=base_url()?>assets/img/lambar/angin3.jpg" alt="Los Angeles" width="1100" height="500">
       <a href="<?php echo site_url('location/lambar'); ?>"button class="btn">Pilih</a></button>
       <div class="carousel-caption">
 
@@ -203,7 +203,7 @@
       </div>   
     </div>
     <div class="carousel-item">
-      <img src="<?=base_url()?>assets/img/lambar/baris3.jpg" alt="Chicago" width="1100" height="500">
+      <img src="<?=base_url()?>assets/img/lambar/baris1.jpg" alt="Chicago" width="1100" height="500">
       <a href="<?php echo site_url('location/lambar'); ?>"button class="btn">Pilih</a></button>
       <div class="carousel-caption">
         <h3>Taman Nasional Bukit Barisan</h3>
@@ -227,10 +227,10 @@
   </a>
 
    <div class="row">
-      <div class="col-3">
-      <img style="margin-left: 50%;margin-top: 20%; border:none;" src="<?=base_url()?>assets/img/pagebaru/logolambar.png" class="img-thumbnail" alt="Bandar Lampung" height="100" width="100";>
+      <div class="col-3"style="background-color: #f2f3f4">
+      <img style="margin-left: 50%;margin-top: 20%; border:none;background-color: #f2f3f4" src="<?=base_url()?>assets/img/pagebaru/logolambar.png" class="img-thumbnail" alt="Bandar Lampung" height="100" width="100";>
     </div>
-    <div class="col-9">
+    <div class="col-9" style="background-color: #f2f3f4; text-align: justify;">
       <br>
      <p>Dinas Kebudayaan dan Pariwisata Kabupaten Lampung Barat</p>
      <p>Komplek Perkantoran Pemda Way Mengaku </p>
