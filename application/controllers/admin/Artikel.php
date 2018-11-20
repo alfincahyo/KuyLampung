@@ -20,6 +20,7 @@ class Artikel extends CI_Controller {
 		}
 
 		public function tambah(){
+
 			$daerah = $this->daerah_model->listing();
 			$artikel = $this->artikel_model->listing();
 
@@ -39,7 +40,8 @@ class Artikel extends CI_Controller {
 				$i    			= $this->input;
 				$data = array('id_daerah'   => $i->post('id_daerah'),
 											'judul'       => $i->post('judul'),
-											'isi'       	=> $i->post('isi')
+											'isi'       	=> $i->post('isi'),
+											'id_admin'		=> $this->session->userdata('id')
 										);
 				$this->artikel_model->tambah($data);
 				$this->session->set_flashdata('SUKSES','Data Telah Ditambahkan');
