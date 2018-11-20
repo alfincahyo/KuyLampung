@@ -21,7 +21,8 @@
              <th>Nama Daerah</th>
              <th>Alamat</th>
              <th>No.Telepon</th>
-             <th>Logo</th>
+             <th>Logo Daerah</th>
+             <th>Keterangan</th>
              <th></th>
          </tr>
      </thead>
@@ -33,6 +34,7 @@
              <td><?php echo $daerah->alamat ?></td>
              <td><?php echo $daerah->telepon ?></td>
              <td><img src="<?php echo base_url('assets/upload/logo/thumbs/'.$daerah->logo_daerah) ?>"width="60"></td>
+             <td><?php echo $daerah->keterangan ?></td>
              <td><a href="<?php echo base_url('admin/daerah/edit/'.$daerah->id_daerah) ?>" class="btn btn-primary btn-sm" title="Edit Daerah"><i class="fa fa-edit"></i></a>
                <?php include('delete.php'); ?>
              </td>
