@@ -1,8 +1,5 @@
 <p>
-  <a href="<?php echo base_url('admin/dasbor/tambah') ?>" class="btn btn-primary">
-    <i class="fa fa-plus"></i>
-    Tambah
-  </a>
+  <?php include('tambah.php'); ?>
 </p>
 <?php
   if ($this->session->flashdata('SUKSES')) {
@@ -13,7 +10,7 @@
 ?>
 <div class="panel panel-default">
     <div class="panel-heading">
-        Data Administrator
+        Data Daerah
     </div>
 <div class="panel-body">
 <div class="table-responsive">
@@ -21,23 +18,30 @@
      <thead>
          <tr>
              <th>#</th>
-             <th>Username</th>
-             <th>Nama Lengkap</th>
-             <th>Email</th>
+             <th>Nama Daerah</th>
+             <th>Alamat</th>
+             <th>No.Telepon</th>
+             <th>Logo Daerah</th>
+             <th>Keterangan</th>
              <th></th>
          </tr>
      </thead>
      <tbody>
-       <?php $i = 1; foreach ($admin as $admin) { ?>
+       <?php $i = 1; foreach ($daerah as $daerah) { ?>
          <tr class="odd gradeX">
-           <td><?php echo $i ?></td>
-           <td><?php echo $admin->username ?></td>
-           <td><?php echo $admin->nama ?></td>
-           <td><?php echo $admin->email ?></td>
-             <td><a href="<?php echo base_url('admin/dasbor/edit/'.$admin->id_admin) ?>" class="btn btn-primary btn-sm" title="Edit Artikel"><i class="fa fa-edit"></i></a>
+             <td><?php echo $i ?></td>
+             <td><?php echo $daerah->nama_daerah ?></td>
+             <td><?php echo $daerah->alamat ?></td>
+             <td><?php echo $daerah->telepon ?></td>
+             <td><img src="<?php echo base_url('assets/upload/logo/thumbs/'.$daerah->logo_daerah) ?>"width="60"></td>
+             <td><?php echo $daerah->keterangan ?></td>
+             <td><a href="<?php echo base_url('admin/daerah/edit/'.$daerah->id_daerah) ?>" class="btn btn-primary btn-sm" title="Edit Daerah"><i class="fa fa-edit"></i></a>
                <?php include('delete.php'); ?>
              </td>
          </tr>
        <?php $i++; } ?>
-     </tbody>
+    </tbody>
 </table>
+</div>
+</div>
+</div>
