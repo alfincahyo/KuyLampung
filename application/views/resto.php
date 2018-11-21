@@ -126,7 +126,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   </div>
 
   <hr class="featurette-divider">
-  
+
 
   <div class="row">
     <div class="col-8 " >
@@ -172,6 +172,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <br>
     </div><br>
   </div>
+
+<hr class="featurette-divider">
+
 
   <div class="row">
     <div class="col ">
