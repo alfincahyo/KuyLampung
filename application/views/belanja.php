@@ -98,6 +98,23 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           </div>
         </div>
 
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7" style="margin-top: 10px;">
+            <h2 class="featurette-heading">Chandra Super Store Tanjung Karang</h2>
+            <p class="lead">Chandra Super Store Tanjung Karang adalah salah satu Pusat Perbelanjaan besar di Bandar Lampung, Indonesia. Mal ini memiliki 3 lantai dengan sejumlah perusahaan yang sudah terkenal baik pada skala nasional maupun internasional. Mal ini saat ini telah memiliki banyak cabang di berbagai kota penting di provinsi Lampung, Seperti : Bandar Lampung, Metro, Pringsewu, Bandar Jaya, dan Kota Agung di Kabupaten Tanggamus. Selain Chandra Super Store Tanjung Karang, terdapat juga cabang yang sama yang berada di Teluk Betung dan Plaza Simpur Centre di Bandar Lampung.</p>
+      <br> 
+      <br>
+          </div>
+
+          <div class="col-md-5">
+            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 450px;" src="<?=base_url()?>assets/img/belanja/chandra.jpg" data-holder-rendered="true">
+            <br>
+            <br>
+            <a href=https://id.wikipedia.org/wiki/Chandra_Super_Store_Tanjung_Karang"  target="_top" class="btn btn-success" >Chandra Super Store Tanjung Karang</a>
+          </div>
+        </div>
 
       </div >
 
