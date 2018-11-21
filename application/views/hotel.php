@@ -67,11 +67,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <div class="row featurette">
           <div class="col-md-7" style="margin-top: 10px;">
-            <h2 class="featurette-heading">GULAI TABOH</h2>
-            <p class="lead"> Gulai taboh memang dikenal sebagai makanan khas dari Lampung yang memiliki cita rasa yang sangat unik. Gulai taboh ini biasanyan terbuat dari ubi-ubian dan kacang-kacangan. Proses pembuatan gulai taboh terbilang sedikit mudah yakni dengan mencapurkan santan dengan kacang hijau ataupun kacang lainnya, serta juga bisa mencapurkan rebung dan kentang ke dalam masakan ini. Jika ingin membuat rasa yang berbeda maka anda bisa menambahkan daun sirih atau terasi ke dalamnya. Dengan adanya perpaduan antara ubi dengan terasi tersebut dapat membuat makanan terasa lebih lezat dilidah</p>
+            <h2 class="featurette-heading">Hotel Aston Lampung City </h2>
+            <p class="lead"> Aston Lampung City Hotel di Bandar Lampung, 11 km dari Boemi Kedaton Mall, menyediakan akomodasi bintang 3 dengan taman, taman, lounge bersama, kolam renang terbuka, resepsionis 24 jam, serta minuman di bar atau makanan di restoran.
+
+            Kamar-kamar di hotel dilengkapi dengan teko serta TV layar datar dengan saluran kabel.
+
+            Sarapan prasmanan disajikan setiap hari.
+
+            Terdapat juga kolam renang terbuka.
+
+            Untuk kenyamanan Anda, Aston Lampung City Hotel memiliki pusat bisnis. Resepsionisnya yang fasih berbahasa Inggris dan Indonesia selalu siap membantu Anda.  </p>
           </div>
           <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 330px;" src="<?=base_url()?>assets/img/culinary/gulaitaboh2.jpg" data-holder-rendered="true">
+            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 400px;" src="<?=base_url()?>assets/img/hotel/Aston.jpg" data-holder-rendered="true">
           </div>
         </div>
 
