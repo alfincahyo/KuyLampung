@@ -79,12 +79,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <div class="row featurette">
           <div class="col-md-7 order-md-2 " style="margin-top: 10px;">
-            <h2 class="featurette-heading">ENGKAK</h2>
-            <p class="lead">Engkak merupakan makanan yang memiliki rasa yang cukup manis. Bahan utama untuk pembuatan engkak ialah telur dan mentega yang dihaluskan menjadi tekstur yang sangat lembek. Engkak ini sangat cocok disantap sebagai makanan ringan dan juga sarapan. Bahan-bahan yang digunakan untuk pembuatan engkak ialah gula pasir, tepung ketan putih, telur ayam, susu kental manis, santan serta mentega.
-			Selanjutnya semua bahan tesebut bisa anda campurkan menjadi satu lalu aduk hingga merata. Setelahnya anda bisa memasukan adonan tersebut ke dalam loyang yang sudah dioleskan mentega dan juga di beri alas kertas berih. Anda bisa memanggang kue ini layaknya lapis segit.</p>
+            <h2 class="featurette-heading">Krui Mutun Walur Surf Camp</h2>
+            <p class="lead">Terletak tepat di tepi Pantai Walur di Krui, Sumatera Selatan, Krui Mutun Walur Surf Camp Sumatra menawarkan akomodasi sederhana yang nyaman dengan meja depan 24-jam serta fasilitas parkir pribadi gratis di lokasi untuk tamu yang berkendara.
+
+            Akomodasi ini berjarak 7 menit berkendara dari lokasi berselancar di Krui Left dan Krui Right, serta 10 menit berkendara dari Bandara Pekon Serai. Pantai Mandiri dapat dijangkau dalam 25 menit berkendara, sementara perjalanan ke Bandara Radin Inten II memakan waktu sekitar 6 jam berkendara.
+
+            Krui Mutun Walur Surf Camp Sumatra memiliki area tempat duduk. Kamar mandi pribadinya menyediakan shower dan perlengkapan mandi gratis. Anda dapat menikmati pemandangan laut dan taman dari kamar. Fasilitas lain meliputi seprai dan kipas angin.
+
+            Krui Mutun Walur Surf Camp Sumatra menawarkan meja depan 24-jam, taman, dan teras. Tersedia juga fasilitas lain seperti layanan binatu dan menyetrika. Berbagai kegiatan dapat dilakukan di akomodasi atau di sekitarnya, termasuk berselancar dan menyelam.
+
+            Untuk pilihan tempat bersantap, restoran di akomodasi ini menyajikan masakan Indonesia dan makanan ringan. Anda juga dapat memesan makanan melalui layanan kamar. </p>
           </div>
           <div class="col-md-5 order-md-1">
-            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 330px;" src="<?=base_url()?>assets/img/culinary/engkak2.jpg" data-holder-rendered="true">
+            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 330px;" src="<?=base_url()?>assets/img/hotel/kruimutun.jpg" data-holder-rendered="true">
           </div>
         </div>
 
