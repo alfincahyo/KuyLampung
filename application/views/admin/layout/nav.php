@@ -27,6 +27,14 @@
         </ul>
       </li>
 
+      <li><a href="#"><i class="fa fa-user"></i> Culinary<span class="fa arrow"></span></a>
+      <ul class="nav nav-second-level">
+        <li><a href="<?php echo base_url('admin/culinary') ?>">Data Culinary</a></li>
+        <li><a href="<?php echo base_url('admin/culinary/tambah') ?>">Tambah Artikel</a></li>
+      </ul>
+    </li>
+
+
       <li><a href="#"><i class="fa fa-comments"></i> Komentar<span class="fa arrow"></span></a>
         <ul class="nav nav-second-level">
           <li><a href="<?php echo base_url('admin/komentar') ?>">Data Komentar</a></li>
