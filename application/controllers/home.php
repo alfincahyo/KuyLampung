@@ -18,6 +18,13 @@ class home extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
+
+	 public function __construct(){
+ 		parent::__construct();
+ 		$this->load->model('culinary_model');
+ 		$this->load->helper('url');
+ 	}
+
 	public function beranda()
 	{
 		$this->load->view('template/header.php');
@@ -26,8 +33,9 @@ class home extends CI_Controller {
 	}
 
 	public function culinar(){
+		$data['culinary'] = $this->culinary_model->listing();
 		$this->load->view('template/header2.php');
-		$this->load->view("culinar.php");
+		$this->load->view("culinar.php",$data);
 		$this->load->view('template/footer.php');
 	}
 
