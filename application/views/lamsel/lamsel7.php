@@ -77,24 +77,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     sabtu - Minggu <br> 06:00 – 19.00
                 </div>
             </div>
-            <br><br>
-            <div class="row" >
-                <div class="col-sm-6">
-                <img src="<?=base_url()?>assets/img/lamsel/guci batu kapal/guci2.jpg" class="img-thumbnail" alt="Cinque Terre" style="height: 227px; width: 400px;">   
-                </div>
-                <div>
-                <img src="<?=base_url()?>assets/img/lamsel/guci batu kapal/guci3.jpg" class="img-thumbnail" alt="Cinque Terre" style="height: 227px; width: 400px;">
-                </div>
-            </div>
-            <br>
-            <div class="row" >
-                <div class="col-sm-6">
-                <img src="<?=base_url()?>assets/img/lamsel/guci batu kapal/guci5.jpg" class="img-thumbnail" alt="Cinque Terre" style="height: 227px; width: 400px;">   
-                </div>
-                <div>
-                <img src="<?=base_url()?>assets/img/lamsel/guci batu kapal/guci4.jpg" class="img-thumbnail" alt="Cinque Terre" style="height: 227px; width: 400px;">
-                </div>
-            </div>
             <?php
                 include "formkomentar.php";
             ?>
