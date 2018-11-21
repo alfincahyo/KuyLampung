@@ -121,7 +121,7 @@ h1 {
     <div class="content">
     <img src="<?=base_url()?>assets/img/lambar/tjsetia1.jpg" alt="Mountains" style="width:100%; height: 23%;">
       <h3 style="margin-top: 10px;">Pantai Tanjung Setia</h3>
-      <p>gelombang di Tanjung Setia yang disebut-sebut sebagai salah satu yang terbaik oleh peselancar dari seluruh dunia, dan setara dengan tempat surfing terkenal di dunia yaitu Hawaii. 
+      <p>gelombang di Tanjung Setia yang disebut-sebut sebagai salah satu yang terbaik oleh peselancar dari seluruh dunia. 
 </p>
       <a href="<?php echo site_url('lambar/lambar4'); ?>">
                 Baca Selengkapnya >>>>>
@@ -147,7 +147,7 @@ h1 {
     <div class="content">
       <img src="<?=base_url()?>assets/img/lambar/suoh5.jpg" style="width:100%; height: 23%;">
       <h3 style="margin-top: 10px;">Danau Suoh</h3>
-      <p>Di Danau Suoh anda akan disambut dengan hamparan savana ilalang yang menakjubkan. Ada puluhan hektar savana ilalang berwarna hijau yang siap memanjakan mata anda.</p>
+      <p>Di Danau Suoh anda akan disambut dengan hamparan savana ilalang yang menakjubkan dan savana ilalang berwarna hijau yang siap memanjakan mata anda.</p>
 
       <a href="<?php echo site_url('lambar/lambar6'); ?>">
                 Baca Selengkapnya >>>>>
@@ -159,7 +159,7 @@ h1 {
     <img src="<?=base_url()?>assets/img/lambar/pesagi1.jpg" alt="Lights" style="width:100%; height: 23%;">
       <h3 style="margin-top: 10px;">Gunung Pesagi</h3>
       <p>
-       Keindahan alam di Lampung Barat sudah tidak diragukan lagi, dan Gunung Pesagi merupakan salah satu destinasi wisata yang wajib dikunjungi, karena dari puncak Gunung Pesagi kalian dapat menikmati keindahan wilayah Lampung Barat
+       Keindahan alam di Lampung Barat sudah tidak diragukan lagi, Karena dari puncak Gunung Pesagi kalian dapat menikmati keindahan wilayah Lampung Barat
       </p>
       <a href="<?php echo site_url('lambar/lambar7'); ?>">
                 Baca Selengkapnya >>>>>
@@ -171,7 +171,7 @@ h1 {
     <img src="<?=base_url()?>assets/img/lambar/baris1.jpg" alt="Nature" style="width:100%; height: 23%;">
       <h3 style="margin-top: 10px;">Bukit Barisan Selatan</h3>
       <p>
-      Taman Nasional Bukit Barisan Selatan terletak di ujung wilayah selatan – barat Sumatera, dengan total luas 3.588 km², meliputi tiga propinsi yaitu Lampung, Bengkulu dan Sumatera Selatan. 
+      Taman Nasional Bukit Barisan Selatan terletak di ujung wilayah selatan – barat Sumatera, meliputi tiga propinsi yaitu Lampung, Bengkulu dan Sumatera Selatan. 
       </p>
       <a href="<?php echo site_url('lambar/lambar8'); ?>">
                 Baca Selengkapnya >>>>>
