@@ -57,4 +57,8 @@ class home extends CI_Controller {
 		$this->load->view('template/footer.php');
 	}
 
+	public function other(){
+		$this->load->view('template/header5.php');
+		$this->load->view('template/footer.php');
+	}
 }
