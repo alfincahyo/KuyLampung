@@ -65,24 +65,6 @@ Harga tiket masuk ke Pantai Pasir Putih ini pun relatif sangat murah, hanya deng
 					07.00 - 18.00
 				</div>
             </div>
-            <br><br>
-            <div class="row" >
-                <div class="col-sm-6">
-                <img src="<?=base_url()?>assets/img/lamsel/pasirputih/1.jpg" class="img-thumbnail" alt="Cinque Terre" height="205px" width="410px";>	
-                </div>
-                <div>
-                <img src="<?=base_url()?>assets/img/lamsel/pasirputih/2.jpg" class="img-thumbnail" alt="Cinque Terre" height="205px" width="400px";>
-                </div>
-            </div>
-            <br>
-            <div class="row" >
-                <div class="col-sm-6">
-                <img src="<?=base_url()?>assets/img/lamsel/pasirputih/3.jpg" class="img-thumbnail" alt="Cinque Terre" height="205px" width="410px";>	
-                </div>
-                <div>
-                <img src="<?=base_url()?>assets/img/lamsel/pasirputih/4.jpg" class="img-thumbnail" alt="Cinque Terre" style="height: 227px; width: 400px;">
-                </div>
-            </div>
             <div >
             <?php
                 include "formkomentar.php";
