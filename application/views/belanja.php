@@ -42,7 +42,26 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           </div>
         </div>
 
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7" style="margin-top: 10px;">
+            <h2 class="featurette-heading">Mall Kartini</h2>
+            <p class="lead">Mal Kartini 1 adalah salah satu pusat perbelanjaan Besar ke dua di Kota Bandar Lampung. Mall ini berdiri pada sekitar tahun 2003. Awalnya di mall ini terdapat Matahari Department Store. Kemudian Giant Supermarket dibuka di mall ini dan Matahari Department Store masih berdiri. Namun sekarang Matahari Department Store Mal Kartini telah digantikan oleh Center Point Department Store, sedangkan Matahari Department Store Lampung dipindahkan ke Central Plaza Lampung. Di mall ini terdapat Food Court, KFC, dll. Di mall ini juga terdapat toko furniture yang terkemuka. Selain Mall Kartini, ada juga yaitu Mall Central Plaza yang menggantikan Mall Arthomoro Lampung.
+      <br> 
+      <br>
+          </div>
+
+          <div class="col-md-5">
+            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 450px;" src="<?=base_url()?>assets/img/belanja/moka.jpg" data-holder-rendered="true">
+            <br>
+            <br>
+            <a href=https://id.wikipedia.org/wiki/Mal_Kartini"  target="_top" class="btn btn-success" >Mall Kartini</a>
+          </div>
         </div>
+
+        </div>
+
 
 
         </div>
