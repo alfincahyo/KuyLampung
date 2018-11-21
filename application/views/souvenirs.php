@@ -161,7 +161,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				</div>
 				<div class="col-sm-4" >
 					<img src="<?=base_url()?>assets/img/souveniers/allstar.png" alt="bintang" height="50px" ;>	
-					<br>
+					<br><br>
 					<h6>8.7 / 10</h6>
 				</div>
 				<div class="col-sm-4" >
@@ -194,7 +194,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				</div>
 				<div class="col-sm-4" >
 					<img src="<?=base_url()?>assets/img/souveniers/allstar.png" alt="bintang" height="50px" ;>
-					<br>
+					<br><br>
 					<h6>8.3 / 10</h6>
 				</div>
 				<div class="col-sm-4" >
