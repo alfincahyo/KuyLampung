@@ -212,6 +212,50 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </div><br>
   </div>
 
+<div class="row">
+    <div class="col-8 "  >
+      <div class="judul">
+        <p><h3> Kampoeng Bamboe Restoran dan Homestay </h3></p>
+      </div>
+      
+      <p> <br>
+      Kampoeng Bamboe memiliki suasana asri dengan berbagai fasilitas yang Anda butuhkan, dengan paket yang disesuaikan dengan kebutuhan Anda. Kampoeng Bamboe menjadi tempat yang sempurna untuk Anda mengisi waktu Anda dengan keluarga, kerabat, hingga untuk berbagai acara (Meeting, Wedding, Ulang Tahun, dan lain sebagainya)
+      </p> <br><br>
+      <div class="row">
+        <div class="col-sm-4" >
+          <img src="<?=base_url()?>assets/img/resto/bambu.jpg" alt="uang" height="50x" width="50px";>
+          <br><br>
+          20.000 - 300.000
+        </div>
+        <div class="col-sm-4" >
+          <img src="<?=base_url()?>assets/img/souveniers/star.png" alt="bintang" height="25px" width="25px";> 
+          <img src="<?=base_url()?>assets/img/souveniers/star.png" alt="bintang" height="25px" width="25px";> 
+          <img src="<?=base_url()?>assets/img/souveniers/star.png" alt="bintang" height="25px" width="25px";> 
+          <img src="<?=base_url()?>assets/img/souveniers/star.png" alt="bintang" height="25px" width="25px";> 
+          <img src="<?=base_url()?>assets/img/souveniers/halfstar.png" alt="bintang setengah" height="25px" width="25px"  margin-bottom = "20px";>  
+          <br><img src="<?=base_url()?>assets/img/souveniers/none.png"  height="50px" width="50px";>  
+          <br>
+          9.0 / 10
+        </div>
+        <div class="col-sm-4" >
+          <img src="<?=base_url()?>assets/img/souveniers/mytime.png" alt="waktu" height="50x" width="50px";>
+          <br><br>
+          10.00 - 23.00
+        </div>
+      </div>
+    </div>
+    <div class="col ">
+      <div class="card" >
+      <img src="<?=base_url()?>assets/img/souveniers/isi5.png" class="img-thumbnail" alt="Cinque Terre" width="100%" ;>
+        <div class="card-body">
+        <h4 class="card-title" >Kampoeng Bamboe Restoran dan Homestay</h4>
+        <p class="card-text" >Kampoeng Bamboe adalah Restoran suasana alam yang hijau nan asri, dengan masakan khas Indonesia yang sangat lezat, dengan harga yang begitu bersahabat bagi Anda dan keluarga</p>
+        <a href=http://www.iyenfoods.com/sambal-lampung-yenyen-iyen target="_top" class="btn btn-primary" >go website</a>
+        </div>
+      </div>
+      <br>
+    </div><br>
+  </div>
 
 
 </body>
