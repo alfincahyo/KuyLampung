@@ -221,6 +221,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </div><br>
   </div>
 
+
+<hr class="featurette-divider">
+
 <div class="row">
     <div class="col-8 "  >
       <div class="judul">
