@@ -42,12 +42,23 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <div class="row featurette">
           <div class="col-md-7 order-md-2" style="margin-top: 10px;">
-            <h2 class="featurette-heading">TEMPOYAK</h2>
-            <p class="lead">Tempoyak merupakan sebuah makanan yang menggunakan bahan dasar buah durian yang sudah difermentasikan dan segera mengolahnya dengan campuran ikan. Ikan yang biasanya digunakan cukup beragam seperti ikan mujair, ikan teri, ikan mas dan lainnya. <br>
-            Bagi anda yang ingin membuat sambal maka harus mencampurkan bawang merah, bawang putih, cabe yang telah dihaluskan ataupun dipotong-potong kecil, kemudian tambahkan sedikit gula. Kemudian anda bisa mengorengnya hingga 3 menit, selanjutnya tempoyak bisa langsung dihidangkan dan dimakan.</p>
+            <h2 class="featurette-heading">Hotel Grand Elty Krakatoa Lampung Selatan</h2>
+            <p class="lead"> Dikelilingi pantai berpasir putih yang menghadap Selat Sunda, Grand Elty Krakatoa menyediakan kamar-kamar dengan Wi-Fi gratis dan TV kabel layar datar. Resor ini juga memiliki kolam renang outdoor.
+
+            Grand Elty Krakatoa berjarak kira-kira 2 jam berkendara dari Bandara Raden Intan.
+
+            Kamar-kamar Grand Elty Krakatoa ber-AC dan dilengkapi fasilitas membuat teh/kopi dan minibar. Kamar mandi pribadinya menawarkan shower dan perlengkapan mandi gratis.
+
+            Peralatan olahraga laut seperti banana boat dan jet ski tersedia untuk disewakan. Anda juga dapat berkaraoke di lounge. Layanan penyewaan sepeda tersedia bagi Anda yang ingin menjelajahi daerah sekitar.
+
+            Rakata Coffee Shop menyajikan berbagai hidangan Barat, Asia, dan Indonesia. Tersedia layanan kamar. 
+
+            Akomodasi ini juga berada di salah satu kawasan paling favorit di Kaliandak! Tamu lebih senang di sini dibandingkan dengan di akomodasi lain di area yang sama.
+
+            Akomodasi ini juga dinilai memiliki harga terbaik di Kaliandak! Tamu mendapatkan fasilitas lebih banyak untuk uang yang mereka keluarkan dibandingkan akomodasi lain di kota ini.</p>
           </div>
-          <div class="col-md-5 order-md-1">
-            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 330px;" src="<?=base_url()?>assets/img/culinary/tempoyak.jpg" data-holder-rendered="true">
+          <div class="col-md-5">
+            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 330px;" src="<?=base_url()?>assets/img/hotel/Krakatoa.jpg" data-holder-rendered="true">
           </div>
         </div>
 
