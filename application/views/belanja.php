@@ -134,6 +134,24 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           </div>
         </div>
 
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7" style="margin-top: 10px;">
+            <h2 class="featurette-heading">Simpur Center</h2>
+            <p class="lead">Simpur center Bandar Lampung adalah salah satu pusat perbelanjaan di Bandar Lampung, Indonesia. mal ini berada di pusat kota, di Jl. Jenderal Gatot Suprapto No.54 Tanjungkarang pusat Bandar Lampung. Di mall ini terdapat cabang franchise cukup lengkap guna untuk memenuhi kebutuhan warga bandarlampung dan sekitarnya.</p>
+      <br> 
+      <br>
+          </div>
+
+          <div class="col-md-5">
+            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 450px;" src="<?=base_url()?>assets/img/belanja/simpur.jpg" data-holder-rendered="true">
+            <br>
+            <br>
+            <a href=https://id.wikipedia.org/wiki/Simpur_Center_Bandar_Lampung"  target="_top" class="btn btn-success" >Simpur Center Lampung</a>
+          </div>
+        </div>
+
       </div >
 
 
