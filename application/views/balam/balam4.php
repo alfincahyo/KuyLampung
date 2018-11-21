@@ -79,60 +79,37 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             7,6 kilometer dari Tugu Adipura, dengan waktu tempuh sekitar 20 menit di tengah hari melewati 5-6 titik kemacetan.
             <br><br>
             </div>
-            <div class="row">
-				<div class="col-sm-4" style="text-align:center;">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="nilai" >
+                    <p>HARGA</p>
 					<img src="<?=base_url()?>assets/img/balam/money.png" alt="uang" height="50x" width="50px";>	
-					<br><br>
-					1.000 - 5.000
+                    <p><br>1.000 - 5.000</p>
+                    </p>                
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="nilai" >
+                    <p>RATING</p>
+                    <img src="<?=base_url()?>assets/img/souveniers/allstar.png" alt="bintang" height="50px" ;>	
+                    <p><br>7.7 / 10</p>
+                    </p>                   
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="nilai">
+                    <p>OPERASIONAL</p>
+                    <img src="<?=base_url()?>assets/img/balam/mytime.png" alt="waktu" height="50x" width="50px";>		
+                    <p><br>sabtu - kamis <br> 07.00 - 20.00</p>
+                    <p>jumat <br> 08:00 – 10:30</p>
+                    </p>                    
 				</div>
-				<div class="col-sm-4" style="text-align:center;">
-					<img src="<?=base_url()?>assets/img/balam/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/balam/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/balam/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/balam/halfstar.png" alt="bintang stengah" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/balam/emptystar.png" alt="bintang kosong" height="25px" width="25px"  margin-bottom = "20px";>	
-					<br><img src="<?=base_url()?>assets/img/balam/none.png"  height="50px" width="50px";>	
-					<br>
-					7.5 / 10
-				</div>
-				<div class="col-sm-4" style="text-align:center;">
-					<img src="<?=base_url()?>assets/img/balam/mytime.png" alt="waktu" height="50x" width="50px";>		
-					<br><br>
-					sabtu - kamis <br> 07.00 - 20.00 <br>
-                    jumat <br> 08:00 – 10:30
-				</div>
             </div>
-            <br><br>
-            <div class="row" >
-                <div class="col-sm-6">
-                <img src="<?=base_url()?>assets/img/balam/museum2.jpg" class="img-thumbnail" alt="Cinque Terre" height="205px" width="410px";>	
-                </div>
-                <div>
-                <img src="<?=base_url()?>assets/img/balam/museum3.jpg" class="img-thumbnail" alt="Cinque Terre" height="205px" width="400px";>
-                </div>
-            </div>
-            <br>
-            <div class="row" >
-                <div class="col-sm-6">
-                <img src="<?=base_url()?>assets/img/balam/museum4.jpg" class="img-thumbnail" alt="Cinque Terre" height="205px" width="410px";>	
-                <br><br>
-                </div>
-                <div>
-                <img src="<?=base_url()?>assets/img/balam/museum5.jpg" class="img-thumbnail" alt="Cinque Terre" height="205px" width="400px";>
-                <br><br>
-                </div>
-            </div>
-            
-            <div >
-            <?php
-                include "formkomentar.php";
-            ?>
-            </div>
-            
         </div>
-        <div class="col-3 ">
+ 
+        </div>
+        <div class="col-4 ">
         <div id="sidebar" >
-            <br><br>
             <div id="clock" class="clock2"></div>
             <script type="text/javascript">
 
@@ -165,20 +142,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 }
                     showTime();
                 </script>
-            <br><br>
                 <div class="widget">
                     <h3 class="judulwidget">Artikel Menarik lainnya<br></h3>
                         <ul>
-                            <li><a href="<?php echo site_url('balam/balam1'); ?>"">Pantai Mutun<br></a></li><br>
-                            <li><a href="<?php echo site_url('balam/balam2'); ?>"">Puncak Mas<br></a></li><br>
-                            <li><a href="<?php echo site_url('balam/balam3'); ?>"">Taman kupu-kupu<br></a></li><br>
-                            <li><a href="<?php echo site_url('balam/balam4'); ?>"">Museum Lampung<br></a></li><br>
-                            <li><a href="<?php echo site_url('balam/balam5'); ?>"">Horti Park<br></a></li><br>
-                            <li><a href="<?php echo site_url('balam/balam6'); ?>"">Bukit Sakura<br></a></li><br>
-                            <li><a href="<?php echo site_url('balam/balam7'); ?>"">Lembah Hijau<br></a></li><br>
-                            <li><a href="<?php echo site_url('balam/balam8'); ?>"">Alam Wawai<br></a></li><br>
-                            <li><a href="<?php echo site_url('balam/balam9'); ?>"">Hutan Pinus (Zona 235)<br></a></li><br>
-                            <li><a href="<?php echo site_url('balam/balam10'); ?>"">Penangkaran Rusa<br></a></li><br>
+                            <li><a href="<?php echo site_url('balam/balam1'); ?>">Pantai Mutun<br></a></li><br>
+                            <li><a href="<?php echo site_url('balam/balam2'); ?>">Puncak Mas<br></a></li><br>
+                            <li><a href="<?php echo site_url('balam/balam3'); ?>">Taman kupu-kupu<br></a></li><br>
+                            <li><a href="<?php echo site_url('balam/balam4'); ?>">Museum Lampung<br></a></li><br>
+                            <li><a href="<?php echo site_url('balam/balam5'); ?>">Horti Park<br></a></li><br>
+                            <li><a href="<?php echo site_url('balam/balam6'); ?>">Bukit Sakura<br></a></li><br>
+                            <li><a href="<?php echo site_url('balam/balam7'); ?>">Lembah Hijau<br></a></li><br>
+                            <li><a href="<?php echo site_url('balam/balam8'); ?>">Alam Wawai<br></a></li><br>
+                            <li><a href="<?php echo site_url('balam/balam9'); ?>">Hutan Pinus (Zona 235)<br></a></li><br>
+                            <li><a href="<?php echo site_url('balam/balam10'); ?>">Penangkaran Rusa<br></a></li><br>
                         </ul>
                 </div>
 
