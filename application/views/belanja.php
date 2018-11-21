@@ -60,10 +60,25 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           </div>
         </div>
 
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7" style="margin-top: 10px;">
+            <h2 class="featurette-heading">Central Plaza Lampung</h2>
+            <p class="lead">Central Plaza Lampung adalah sebuah pusat perbelanjaan besar di Bandar Lampung, Indonesia. Mal ini didirikan pada tahun 2009. Mal ini terdiri dari 3 lantai dengan penyewa-penyewa perusahaan besar baik skala nasional maupun internasional, dan bertujuan untuk memenuhi kebutuhan warga Bandar Lampung dan sekitarnya.</p>
+      <br> 
+      <br>
+          </div>
+
+          <div class="col-md-5">
+            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 450px;" src="<?=base_url()?>assets/img/belanja/cp.jpg" data-holder-rendered="true">
+            <br>
+            <br>
+            <a href=https://id.wikipedia.org/wiki/Central_Plaza_Lampung"  target="_top" class="btn btn-success" >Central Plaza Lamupung</a>
+          </div>
         </div>
+      </div>
 
 
-
-        </div>
 </body>
 </html>
