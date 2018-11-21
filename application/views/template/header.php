@@ -16,6 +16,7 @@
         <li><a href="<?php echo site_url('home/location'); ?>"">Location</a></li>
         <li><a href="<?php echo site_url('home/culinar'); ?>">Culinary</a></li>
         <li><a href="<?php echo site_url('home/souvenirs'); ?>">Souvenirs</a></li>
+        <li><a href="<?php echo site_url('home/other'); ?>">Lainnya</a></li>
         <li style="float:right"><a href="<?php echo site_url('Login/index'); ?>">Login</a></li>
         <li style="float:right"><a href="<?php echo site_url('home/about_us'); ?>">About Us</a></li>
     </ul>
