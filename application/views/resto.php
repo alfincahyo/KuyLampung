@@ -77,6 +77,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </div><br>
   </div>
 
+  <hr class="featurette-divider">
+
+
   <div class="row">
     <div class="col ">
     <div class="card" >
@@ -223,7 +226,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       </p> <br><br>
       <div class="row">
         <div class="col-sm-4" >
-          <img src="<?=base_url()?>assets/img/resto/bambu.jpg" alt="uang" height="50x" width="50px";>
+         <img src="<?=base_url()?>assets/img/souveniers/mytime.png" alt="waktu" height="50x" width="50px";>
           <br><br>
           20.000 - 300.000
         </div>
@@ -246,7 +249,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </div>
     <div class="col ">
       <div class="card" >
-      <img src="<?=base_url()?>assets/img/souveniers/isi5.png" class="img-thumbnail" alt="Cinque Terre" width="100%" ;>
+      <img src="<?=base_url()?>assets/img/resto/bambu.jpg" class="img-thumbnail" alt="Cinque Terre" width="100%" ;>
         <div class="card-body">
         <h4 class="card-title" >Kampoeng Bamboe Restoran dan Homestay</h4>
         <p class="card-text" >Kampoeng Bamboe adalah Restoran suasana alam yang hijau nan asri, dengan masakan khas Indonesia yang sangat lezat, dengan harga yang begitu bersahabat bagi Anda dan keluarga</p>
