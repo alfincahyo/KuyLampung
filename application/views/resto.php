@@ -6,7 +6,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Souveniers</title>
+  <title>Restoran</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/css/home.css">
   <link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/css/oleh.css">
