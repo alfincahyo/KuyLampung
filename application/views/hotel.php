@@ -19,7 +19,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <body>
  	<div class="container">
 
-    <h1 style="color: black; border-color: black; margin-left: -20px; margin-top: 20px;">Penginapan</h1>
+    <h1 style="color: black; border-color: black; margin-left: -20px; margin-top: 20px;">Hotel</h1>
 
 	<hr class="featurette-divider">
 
@@ -42,6 +42,27 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <div class="row featurette">
           <div class="col-md-7 order-md-2" style="margin-top: 10px;">
+            <h2 class="featurette-heading">Hotel Grand Anugerah Bandar Lampung</h2>
+            <p class="lead">Berjarak 200 meter dari Plaza Lotus, Hotel Grand Anugerah Lampung menawarkan pusat kebugaran dan spa. Hotel juga menyediakan meja depan 24 jam dan Wi-Fi gratis di seluruh gedungnya. Parkir tersedia secara gratis.
+
+            Hotel Grand Anugerah Lampung dapat dicapai dalam 15 menit berkendara dari Lembah Hijau dan 30 menit berkendara dari Pantai Mutung. Bandara Radin Inten II hanya 45 menit berkendara dari hotel.
+
+            Masing-masing kamar ber-AC-nya dilengkapi dengan TV kabel layar datar, minibar, dan fasilitas membuat teh/kopi. Kamar-kamar tertentu memiliki balkon yang menawarkan pemandangan kota.
+
+            Anda dapat bersantai dengan layanan pijat di spa atau menyewa mobil untuk menjelajahi kota. Hotel ini menawarkan layanan binatu dan menyetrika serta memiliki meja pramutamu.
+
+            Aneka hidangan Indonesia dan internasional disajikan di kedai kopi, yang juga menawarkan layanan kamar. </p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 330px;" src="<?=base_url()?>assets/img/hotel/Grand.jpg" data-holder-rendered="true">
+          </div>
+        </div>
+
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7" style="margin-top: 10px;">
             <h2 class="featurette-heading">Hotel Grand Elty Krakatoa Lampung Selatan</h2>
             <p class="lead"> Dikelilingi pantai berpasir putih yang menghadap Selat Sunda, Grand Elty Krakatoa menyediakan kamar-kamar dengan Wi-Fi gratis dan TV kabel layar datar. Resor ini juga memiliki kolam renang outdoor.
 
@@ -59,27 +80,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           </div>
           <div class="col-md-5">
             <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 330px;" src="<?=base_url()?>assets/img/hotel/Krakatoa.jpg" data-holder-rendered="true">
-          </div>
-        </div>
-
-
-        <hr class="featurette-divider">
-
-        <div class="row featurette">
-          <div class="col-md-7" style="margin-top: 10px;">
-            <h2 class="featurette-heading">Hotel Aston Lampung City </h2>
-            <p class="lead"> Aston Lampung City Hotel di Bandar Lampung, 11 km dari Boemi Kedaton Mall, menyediakan akomodasi bintang 3 dengan taman, taman, lounge bersama, kolam renang terbuka, resepsionis 24 jam, serta minuman di bar atau makanan di restoran.
-
-            Kamar-kamar di hotel dilengkapi dengan teko serta TV layar datar dengan saluran kabel.
-
-            Sarapan prasmanan disajikan setiap hari.
-
-            Terdapat juga kolam renang terbuka.
-
-            Untuk kenyamanan Anda, Aston Lampung City Hotel memiliki pusat bisnis. Resepsionisnya yang fasih berbahasa Inggris dan Indonesia selalu siap membantu Anda.  </p>
-          </div>
-          <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 400px;" src="<?=base_url()?>assets/img/hotel/Aston.jpg" data-holder-rendered="true">
           </div>
         </div>
 
@@ -107,11 +107,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <div class="row featurette">
           <div class="col-md-7" style="margin-top: 10px;">
-            <h2 class="featurette-heading">PINDANG </h2>
-            <p class="lead"> Pindang merupakan salah satu makanan khas dari kota Lampung yang wajib anda cicipi saat berkunjung ke kota yang penuh dengan pesona yang sangat menakjubkan ini. Pindang bisanya disajikan dengan kuah yang berwarna kuning. Pindang khas Lampung ini memiliki cita rasa yang sangat unik seperti asam gurih dengan aroma yang sangat kuat. Aroma yang kuat ini berasal dari duan kemangi yang dicampurkan ke dalam kuah. </p>
+            <h2 class="featurette-heading">Hotel Aston Lampung City </h2>
+            <p class="lead"> Aston Lampung City Hotel di Bandar Lampung, 11 km dari Boemi Kedaton Mall, menyediakan akomodasi bintang 3 dengan taman, taman, lounge bersama, kolam renang terbuka, resepsionis 24 jam, serta minuman di bar atau makanan di restoran.
+
+            Kamar-kamar di hotel dilengkapi dengan teko serta TV layar datar dengan saluran kabel.
+
+            Sarapan prasmanan disajikan setiap hari.
+
+            Terdapat juga kolam renang terbuka.
+
+            Untuk kenyamanan Anda, Aston Lampung City Hotel memiliki pusat bisnis. Resepsionisnya yang fasih berbahasa Inggris dan Indonesia selalu siap membantu Anda.  </p>
           </div>
           <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 330px;" src="<?=base_url()?>assets/img/culinary/pindang2.jpg" data-holder-rendered="true">
+            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 400px;" src="<?=base_url()?>assets/img/hotel/Aston.jpg" data-holder-rendered="true">
           </div>
         </div>
 
@@ -119,64 +127,21 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <div class="row featurette">
           <div class="col-md-7 order-md-2" style="margin-top: 10px;">
-            <h2 class="featurette-heading">PANGGANG LAMPUNG</h2>
-            <p class="lead">Panggang merupakan makanan khas dari Lampung yang proses pembuatannya harus diasapi ataupun dipanggang. Sehingga tak heran jika makanan khas Lampung ini dikenal dengan nama panggang.
-			Panggang menggunakan ikan sebagai bahan utama dalam pembuatannya yang kemudian di panggang ataupun di asapi di atas bara api. Proses pemanganan ini juga tidak membutuhkan waktu yang lama, hanya saja anda harus menunggu hingga ikannya matang. Apabila ikan tersebut sudah matang maka anda bisa langsung memakannya.</p>
+            <h2 class="featurette-heading">Alau Alau Boutique Hotel</h2>
+            <p class="lead">Memiliki pantai pribadi, Alau Alau Boutique Resort Hotel terletak di Pantai Laguna di Kalianda dan menawarkan pemandangan Selat Sunda. Kolam renang outdoor dan parkir gratis juga tersedia. Anda dapat memesan makanan melalui layanan kamar.
+
+            Alau Alau Boutique Hotel berjarak 1 jam berkendara dari Pelabuhan Bakauhani dan 1,5 jam berkendara dari Bandara Radin Inten II dan Pusat Kota Bandar Lampung. Dalam 45 menit berkendara dari hotel, Anda akan tiba di Dermaga Canti di Pantai Kalianda, di mana Anda dapat naik perahu selama 3 jam untuk mengunjungi Gunung Anak Krakatau.
+
+            Hotel menawarkan bungalow 1-3 kamar tidur yang luas dengan teras pribadi. Air mineral dan mesin membuat kopi disediakan. Kamar mandi en suite-nya dilengkapi dengan shower air panas outdoor dan perlengkapan mandi gratis.
+
+            Wisata sehari dan penyewaan mobil dapat dipesan di meja layanan wisata. Hotel ini juga menyediakan meja pramutamu. </p>
           </div>
           <div class="col-md-5 order-md-1">
-            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 330px;" src="<?=base_url()?>assets/img/culinary/ikanpanggang.png" data-holder-rendered="true">
+            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 330px;" src="<?=base_url()?>assets/img/hotel/alau.jpg" data-holder-rendered="true">
           </div>
         </div>
 
-        <hr class="featurette-divider">
-
-        <div class="row featurette">
-          <div class="col-md-7" style="margin-top: 10px;">
-            <h2 class="featurette-heading">PISRO </h2>
-            <p class="lead"> Pisro merupakan jenis makanan dari olahan ikan yang sering disajikan sebagai jamuan makan sehari-hari masyarakat Pepadun. Dalam proses pembuatannya pisro menggunakan bahan utama ikan betok dan tembakang. Sementara sayur yang digunakan untuk pembuatan pisro mempunyai perpaduan rasa yang sama, manis, pedas serta gurih. Rasa gurih yang ada pada sayur ini berasal dari terasi ikan.Bahan lainnya yang dapat membuat rasa gurih pada sayur pisro yakni ikan bakar yang ada dalam kuah yang sudah dicampurkan dengan bumbu kental lainnya. Sedangkan rasa manis yang ada pada pisro ini berasal dari gula aren yang telah digiling bersamaan dengan bumbu seperti capai dan lainnya. </p>
-          </div>
-          <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 330px;" src="<?=base_url()?>assets/img/culinary/pisro.jpg" data-holder-rendered="true">
-          </div>
-        </div>
-
-        <hr class="featurette-divider">
-
-        <div class="row featurette">
-          <div class="col-md-7 order-md-2" style="margin-top: 10px;">
-            <h2 class="featurette-heading">SAMBAL TEMPOYAK UDANG</h2>
-            <p class="lead"> Bagi anda yang sedang berada di Lampung jangan lupa untuk mencicipi sambal tempoyak udang ini. Karena dijamin anda tidak akan kecewa saat mencicipi sambal yang menawarkan rasa yang sangak maknyus ini. Pada dasarnya sambal tempoyak udang terbuat dari tomat dan cabai serta berbagai tambahan lainnya seperti pete, kunyit serta udang.</p>
-          </div>
-          <div class="col-md-5 order-md-1">
-            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 330px;" src="<?=base_url()?>assets/img/culinary/sambaltempoyakudang.jpg" data-holder-rendered="true">
-          </div>
-        </div>
-
-        <hr class="featurette-divider">
-
-        <div class="row featurette">
-          <div class="col-md-7" style="margin-top: 10px;">
-            <h2 class="featurette-heading">SAMBAL ASAM KEMBANG </h2>
-            <p class="lead"> Sambal asam kembang merupakan salah satu makanan khas Lampung yang memiliki rasa cukup lezat dan nikmat. Jika mendengar namanya pasti anda mengira sambal ini terbuat dari bahan utamanya asam. Namun perlu diketahui, jika dalam proses pembuatan sambal asam kembang ini sama sekali tidak menggunakan asam, akan tetapi terbuat dari terasi yang dicampur dengan buah kemang seperti buah mangga muda.
-			Sambal asam kembang ini juga bisa disantap dengan makanan khas dari kota Lampung lainnya. Selain itu, anda juga bisa menjadikan sambal asam kembang ini sebagai oleh-oleh dari kota Lampung. </p>
-          </div>
-          <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 380px;" src="<?=base_url()?>assets/img/culinary/sambalasamkembang.jpg" data-holder-rendered="true">
-          </div>
-        </div>
-
-         <hr class="featurette-divider">
-
-        <div class="row featurette">
-          <div class="col-md-7 order-md-2" style="margin-top: 10px;">
-            <h2 class="featurette-heading">KERIPIK NANGKA</h2>
-            <p class="lead"> Selain keripik pisang, ada juga makanan ringan khas Lampung lainnya yang bisa anda jadikan sebagai oleh-oleh yakni keripik nangka. Keripik nangka dengan keripik pisang memang tidak ada bedanya, karena sama-sama enak pada saat disantap. Bagi anda yang suka ngemil dan makanan ringan, patut mencoba keripik nangka khas Lampung ini. Karena pada saat anda mencoba keripik nangka ini dijamin anda akan selalu ketagihan dengan rasa yang dimilikinya. </p>
-          </div>
-          <div class="col-md-5 order-md-1">
-            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 330px;" src="<?=base_url()?>assets/img/culinary/keripiknangka.jpg" data-holder-rendered="true">
-          </div>
-        </div>
-
+       
 
         </div>
 </body>
