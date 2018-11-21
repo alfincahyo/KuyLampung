@@ -64,24 +64,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     09.00 - 17.00
 				</div>
             </div>
-            <br><br>
-            <div class="row" >
-                <div class="col-sm-6">
-                <img src="<?=base_url()?>assets/img/lamsel/Trikora/1.jpg" class="img-thumbnail" alt="Cinque Terre" style="height: 227px; width: 400px;">    
-                </div>
-                <div>
-                <img src="<?=base_url()?>assets/img/lamsel/Trikora/2.jpg" class="img-thumbnail" alt="Cinque Terre" style="height: 227px; width: 400px;">
-                </div>
-            </div>
-            <br>
-            <div class="row" >
-                <div class="col-sm-6">
-                <img src="<?=base_url()?>assets/img/lamsel/Trikora/4.jpg" class="img-thumbnail" alt="Cinque Terre" style="height: 227px; width: 400px;">    
-                </div>
-                <div>
-                <img src="<?=base_url()?>assets/img/lamsel/Trikora/5.jpg" class="img-thumbnail" alt="Cinque Terre" style="height: 227px; width: 400px;">
-                </div>
-            </div>
             <?php
                 include "formkomentar.php";
             ?>
