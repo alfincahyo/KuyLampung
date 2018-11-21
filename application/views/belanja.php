@@ -74,10 +74,32 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 450px;" src="<?=base_url()?>assets/img/belanja/cp.jpg" data-holder-rendered="true">
             <br>
             <br>
-            <a href=https://id.wikipedia.org/wiki/Central_Plaza_Lampung"  target="_top" class="btn btn-success" >Central Plaza Lamupung</a>
+            <a href=https://id.wikipedia.org/wiki/Central_Plaza_Lampung"  target="_top" class="btn btn-success" >Central Plaza Lampung</a>
           </div>
         </div>
-      </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7" style="margin-top: 10px;">
+            <h2 class="featurette-heading">Transmart Lampung</h2>
+            <p class="lead">Transmart Carrefour Lampung adalah pusat perbelanjaan terbaru saat ini yang berada di Kota Bandar Lampung, Lampung. Mal ini memiliki luas tanah kurang lebih 3,5 hektar, serta luas bangunan kurang lebih 22.773 m2, dengan 4 lantai dan 1 basement serta termasuk didalamnya Transmart Mall dan kawasan hunian Transpark Lampung. Pusat Perbelanjaan ini menggabungkan konsep 4 in 1 yaitu wahana Trans Studio Mini, hypermarket, fashion shop and food court, sekaligus menikmati bioskop CJ CGV Cinemas dalam satu kawasan.Lokasi mal cukup strategis berada di Jl. Sultan Agung No.283, Way Halim Permai, Way Halim, Kota Bandar Lampung yang berdekatan dengan Stadion Sumpah Pemuda Pkor Way Halim. Selain dekat dengan pusat kota, jalur ini adalah salah satu jalur menuju Jalan Lintas Sumatera, Tol Lampung, Kota Baru Lampung, ITERA dan Kecamatan Jati Agung Lampung Selatan yang ramai oleh masyarakat.
+
+.</p>
+      <br> 
+      <br>
+          </div>
+
+          <div class="col-md-5">
+            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 450px;" src="<?=base_url()?>assets/img/belanja/transmart.jpg" data-holder-rendered="true">
+            <br>
+            <br>
+            <a href=https://id.wikipedia.org/wiki/Transmart_Carrefour_Lampung"  target="_top" class="btn btn-success" >Transmart Lampung</a>
+          </div>
+        </div>
+
+
+      </div >
 
 
 </body>
