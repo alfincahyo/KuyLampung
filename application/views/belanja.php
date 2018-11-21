@@ -116,6 +116,24 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           </div>
         </div>
 
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7" style="margin-top: 10px;">
+            <h2 class="featurette-heading">Bandar Lampung Plaza - Ramayana Tanjung Karang</h2>
+            <p class="lead">Mal Lampung atau Ramayana Mal Lampung adalah sebuah pusat perbelanjaan di Bandar Lampung, Indonesia. Pertokoan ini terletak di Jalan ZA Pagar Alam Rajabasa, Bandar Lampung. Mal ini mempunyai penyewa-penyewa baik dari perusahaan nasional maupun internasional.</p>
+      <br> 
+      <br>
+          </div>
+
+          <div class="col-md-5">
+            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 450px;" src="<?=base_url()?>assets/img/belanja/ramayana.jpg" data-holder-rendered="true">
+            <br>
+            <br>
+            <a href=https://id.wikipedia.org/wiki/Mal_Lampung"  target="_top" class="btn btn-success" >Bandar Lampung Plaza - Ramayana Tanjung Karang</a>
+          </div>
+        </div>
+
       </div >
 
 
