@@ -69,60 +69,39 @@ defined('BASEPATH') OR exit('No direct script access allowed');
              ternyata dipelihara kelinci juga lho. Kelincinya juga dibiarkan hidup liar, dan ada yang dikandangkan juga.
 
             <br>
-            </div>
-            <div class="row">
-				<div class="col-sm-4" style="text-align:center;">
+            </div> 
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="nilai" >
+                    <p>HARGA</p>
 					<img src="<?=base_url()?>assets/img/balam/money.png" alt="uang" height="50x" width="50px";>	
-					<br><br>
-					15.000 - 35.000
+                    <p><br>15.000 - 35.000</p>
+                    </p>                
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="nilai" >
+                    <p>RATING</p>
+                    <img src="<?=base_url()?>assets/img/souveniers/allstar.png" alt="bintang" height="50px" ;>	
+                    <p><br>8.1 / 10</p>
+                    </p>                   
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="nilai">
+                    <p>OPERASIONAL</p>
+                    <img src="<?=base_url()?>assets/img/balam/mytime.png" alt="waktu" height="50x" width="50px";>		
+                    <p><br>Setiap Hari<br>
+                    07.00 - 17.00<br></p>
+                    </p>                    
 				</div>
-				<div class="col-sm-4" style="text-align:center;">
-					<img src="<?=base_url()?>assets/img/balam/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/balam/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/balam/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/balam/star.png" alt="bintang" height="25px" width="25px";>	
-					<img src="<?=base_url()?>assets/img/balam/emptystar.png" alt="bintang kosong" height="25px" width="25px"  margin-bottom = "20px";>	
-					<br><img src="<?=base_url()?>assets/img/balam/none.png"  height="50px" width="50px";>	
-					<br>
-					8.1 / 10
-				</div>
-				<div class="col-sm-4" style="text-align:center;">
-					<img src="<?=base_url()?>assets/img/balam/mytime.png" alt="waktu" height="50x" width="50px";>		
-					<br><br>
-					Setiap Hari <br> 07.00 - 17.00
-				</div>
             </div>
-            <br><br>
-            <div class="row" >
-                <div class="col-sm-6">
-                <img src="<?=base_url()?>assets/img/balam/rusa2.jpg" class="img-thumbnail" alt="Cinque Terre" height="205px" width="410px";>	
-                </div>
-                <div>
-                <img src="<?=base_url()?>assets/img/balam/rusa3.jpg" class="img-thumbnail" alt="Cinque Terre" height="205px" width="400px";>
-                </div>
-            </div>
-            <br>
-            <div class="row" >
-                <div class="col-sm-6">
-                <img src="<?=base_url()?>assets/img/balam/rusa4.jpg" class="img-thumbnail" alt="Cinque Terre" height="205px" width="410px";>	
-                <br><br>
-                </div>
-                <div>
-                <img src="<?=base_url()?>assets/img/balam/rusa5.jpg" class="img-thumbnail" alt="Cinque Terre" height="205px" width="400px";>
-                <br><br>
-                </div>
-            </div>
-
-            <div >
-            <?php
-                include "formkomentar.php";
-            ?>
-            </div>
-            
         </div>
-        <div class="col-3 ">
+
+
+        </div>
+        <div class="col-4 ">
         <div id="sidebar" >
-            <br><br>
             <div id="clock" class="clock2"></div>
             <script type="text/javascript">
 
@@ -155,7 +134,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 }
                     showTime();
                 </script>
-            <br><br>
                 <div class="widget">
                     <h3 class="judulwidget">Artikel Menarik lainnya<br></h3>
                         <ul>
