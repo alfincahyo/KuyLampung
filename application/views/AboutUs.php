@@ -50,7 +50,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 		<div class="col-sm-4">
 			<div class = "card">
-				<center><img src="<?=base_url()?>assets/img/AboutUs/Dio.jpeg" alt="Naufal" style="width:185px"></center>
+				<center><img src="<?=base_url()?>assets/img/AboutUs/suzzana.jpeg" alt="Naufal" style="width:330px; height: 245px"></center>
 					<div class="container">
 						<br>
 			        <center><h4>Ferdio Naufal Haryadi</h4></center>
