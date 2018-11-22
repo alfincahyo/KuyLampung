@@ -116,7 +116,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="card-body">
         <h4 class="card-title" >Taman Santap Rumah Kayu</h4>
         <p class="card-text" > restoran yang menawarkan konsep asri dan hijau dimana terdapat taman dan saung lesehan apung yang dikelilingi kolam ikan.</p>
-        <a href=https://instagram.com/rumahkayulampung?utm_source=ig_profile_share&igshid=1rh3jlakns3lz target="_top" class="btn btn-primary" >go website</a>
+        <a href=https://www.tripadvisor.com/Restaurant_Review-g297722-d6750646-Reviews-Taman_Santap_Rumah_Kayu-Bandar_Lampung_Lampung_Sumatra.html target="_top" class="btn btn-primary" >go website</a>
         </div>
       </div>
       <br>
@@ -195,7 +195,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="card-body">
         <h4 class="card-title" >Bakso Haji Soni</h4>
         <p class="card-text" >Bakso Sony begitu gurih bumbu tradisional, rasa bawang putih begitu terasa saat dikunyah</p>
-        <a href=https://instagram.com/bakso_sony_lampung_?utm_source=ig_profile_share&igshid=ep4atujwvale target="_top" class="btn btn-primary" >go website</a>
+        <a href=https://shopee.co.id/Bakso-Sony-atau-Son-Haji-Asli-Bandar-Lampung-i.3024803.410136606 target="_top" class="btn btn-primary" >go website</a>
         </div>
       </div>
       <br>
@@ -291,7 +291,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="card-body">
         <h4 class="card-title" >Kampoeng Bamboe Restoran dan Homestay</h4>
         <p class="card-text" >Kampoeng Bamboe adalah Restoran suasana alam yang hijau nan asri, dengan masakan khas Indonesia yang sangat lezat, dengan harga yang begitu bersahabat bagi Anda dan keluarga</p>
-        <a href=http://www.iyenfoods.com/sambal-lampung-yenyen-iyen target="_top" class="btn btn-primary" >go website</a>
+        <a href=http://www.kampoengbamboe.co.id/ target="_top" class="btn btn-primary" >go website</a>
         </div>
       </div>
       <br>
