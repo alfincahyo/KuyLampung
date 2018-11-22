@@ -119,7 +119,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             Akomodasi ini juga berada di salah satu kawasan paling favorit di Kaliandak! Tamu lebih senang di sini dibandingkan dengan di akomodasi lain di area yang sama.
 
             Akomodasi ini juga dinilai memiliki harga terbaik di Kaliandak! Tamu mendapatkan fasilitas lebih banyak untuk uang yang mereka keluarkan dibandingkan akomodasi lain di kota ini.</p>
-          </div>
+          	<button class="button" ><span>Website</span></button>
+		</div>
           <div class="col-md-5">
             <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 330px;" src="<?=base_url()?>assets/img/hotel/Krakatoa.jpg" data-holder-rendered="true">
           </div>
