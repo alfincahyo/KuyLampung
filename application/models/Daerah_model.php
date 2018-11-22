@@ -12,6 +12,39 @@ class Daerah_model extends CI_Model {
         return $query->result();
     }
 
+		public function balam(){
+			$this->db->select('*');
+			$this->db->from('daerah');
+			$this->db->limit(1);
+			$this->db->offset(0);
+			$query = $this->db->get();
+			return $query->result();
+
+    }
+
+		public function lamsel(){
+	      $this->db->select('*');
+				$this->db->from('daerah');
+				$this->db->limit(1);
+				$this->db->offset(1);
+				$query = $this->db->get();
+		    return $query->result();
+		}
+
+		public function lambar(){
+	      $this->db->select('*');
+				$this->db->from('daerah');
+				$this->db->limit(1);
+				$this->db->offset(2);
+				$query = $this->db->get();
+		    return $query->result();
+		}
+
+		public function read($id_daerah){
+        $query = $this->db->get_where('daerah',array('id_daerah' => $id_daerah));
+        return $query->row();
+    }
+
     public function detail($id_daerah){
         $query = $this->db->get_where('daerah',array('id_daerah' => $id_daerah));
         return $query->row();
