@@ -99,7 +99,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="card-body">
         <h4 class="card-title" >Bebek Belvr</h4>
         <p class="card-text" >bebek belur berbeda pada teknik pengolahan dan paduan rempah tradisional yang digunakannya</p>
-        <a href=https://instagram.com/bebek_belvr?utm_source=ig_profile_share&igshid=144iziwwfxxw6 target="_top" class="btn btn-primary" >go website</a>
+        <a href=https://www.facebook.com/pages/Bebek-Belur-Pahoman-Lampung/159857747924182 target="_top" class="btn btn-primary" >go website</a>
         </div>
       </div>
       <br>
