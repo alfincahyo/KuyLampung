@@ -180,6 +180,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             Hotel menawarkan bungalow 1-3 kamar tidur yang luas dengan teras pribadi. Air mineral dan mesin membuat kopi disediakan. Kamar mandi en suite-nya dilengkapi dengan shower air panas outdoor dan perlengkapan mandi gratis.
 
             Wisata sehari dan penyewaan mobil dapat dipesan di meja layanan wisata. Hotel ini juga menyediakan meja pramutamu. </p>
+		  <button class="button" ><span>Website</span></button>
           </div>
           <div class="col-md-5 order-md-1">
             <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 330px;" src="<?=base_url()?>assets/img/hotel/alau.jpg" data-holder-rendered="true">
