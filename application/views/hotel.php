@@ -15,46 +15,21 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
-  .button {
-    border-radius: 4px;
-    background-color: #4286f4;
-    border: none;
-    color: #FFFFFF;
-    text-align: center;
-    font-size: 28px;
-    padding: 20px;
-    width: 200px;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin: 5px;
-  }
+  .btn2 {
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.3s;
+}
 
-  .button span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-  }
+.btn2:hover {opacity: 0.6}
 
-  .button span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-  }
-
-  .button:hover span {
-    padding-right: 25px;
-  }
-
-  .button:hover span:after {
-    opacity: 1;
-    right: 0;
-  }
-	  
-#runningtext{
+    #runningtext{
     width:  100%;
     height:200px;
     padding-top: 7px;
@@ -74,8 +49,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <h1 style="color: black; border-color: black; margin-left: -20px; margin-top: 20px;">Hotel</h1>
 
 	<hr class="featurette-divider">
-		
-	<div id="runningtext">
+
+
+<div id="runningtext">
        <marquee behavior="scroll" scrollamount="3" onmouseover="this.stop();"
        onmouseout="this.start();" direction="left">
        <img src="<?=base_url()?>assets/img/caropagebaru/kemenpar.png" class="img-thumbnail" alt="Bandar Lampung" height="250px" width="250px"style='background-color: #f2f3f4; border: none;'>
@@ -95,9 +71,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <h2 class="featurette-heading">Hotel Novotel Bandar Lampung</h2>
             <p class="lead">Novotel Lampung terletak di pusat kota Bandar Lampung, menghadap pantai di ujung selatan Pulau Sumatera. Hotel ini menawarkan 220 kamar modern, plus 2.400 m² ruang pertemuan dan acara, restoran, lounge bar, Lounge Premium, dan fasilitas kebugaran top seperti kolam renang luar ruang, kamar uap, jacuzzi, spa, dan gimnasium, serta Kapel Pernikahan. Terletak 10 menit dari kawasan bisnis dan dekat dengan daya tarik wisata, Novotel Lampung ideal untuk bisnis dan liburan.
 
-            Novotel Lampung adalah hotel bintang 4 yang memberi Anda akses mudah untuk mencapai dan menjelajahi tempat menarik terdekat di Bandar Lampung, seperti Museum Lampung, pusat perbelanjaan, banyak pantai indah (Sari Ringgung, Mutun, Ketapang). Terdapat pula Taman Bumi Kedaton, Taman Kupu-Kupu. Anda juga dapat mengunjungi lebih banyak destinasi wisata di Provinsi Lampung. Misalnya: Teluk Kiluan, Pantai Tanjung Setia, Taman Nasional Bukit Barisan, Pusat Konservasi Gajah Way Kambas.
+            Novotel Lampung adalah hotel bintang 4 yang memberi Anda akses mudah untuk mencapai dan menjelajahi tempat menarik terdekat di Bandar Lampung, seperti Museum Lampung, pusat perbelanjaan, banyak pantai indah (Sari Ringgung, Mutun, Ketapang). Terdapat pula Taman Bumi Kedaton, Taman Kupu-Kupu. Anda juga dapat mengunjungi lebih banyak destinasi wisata di Provinsi Lampung. Misalnya: Teluk Kiluan, Pantai Tanjung Setia, Taman Nasional Bukit Barisan, Pusat Konservasi Gajah Way Kambas.<br><br>
+             <a href=https://www.accorhotels.com/id/hotel-6647-novotel-lampung/index.shtml class="btn2"><span>Website</span></a>
 			</p>
-      <button class="button" ><span>Website</span></button>
+
           </div>
 
           <div class="col-md-5">
@@ -119,8 +96,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
             Anda dapat bersantai dengan layanan pijat di spa atau menyewa mobil untuk menjelajahi kota. Hotel ini menawarkan layanan binatu dan menyetrika serta memiliki meja pramutamu.
 
-            Aneka hidangan Indonesia dan internasional disajikan di kedai kopi, yang juga menawarkan layanan kamar. </p>
-            <button class="button" ><span>Website</span></button>
+            Aneka hidangan Indonesia dan internasional disajikan di kedai kopi, yang juga menawarkan layanan kamar.<br><br>
+            <a href=http://www.hotelanugerah.com/ class="btn2"><span>Website</span></a> </p>
+            
           </div>
           <div class="col-md-5 order-md-1">
             <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 330px;" src="<?=base_url()?>assets/img/hotel/Grand.jpg" data-holder-rendered="true">
@@ -145,9 +123,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
             Akomodasi ini juga berada di salah satu kawasan paling favorit di Kaliandak! Tamu lebih senang di sini dibandingkan dengan di akomodasi lain di area yang sama.
 
-            Akomodasi ini juga dinilai memiliki harga terbaik di Kaliandak! Tamu mendapatkan fasilitas lebih banyak untuk uang yang mereka keluarkan dibandingkan akomodasi lain di kota ini.</p>
-          	<button class="button" ><span>Website</span></button>
-		</div>
+            Akomodasi ini juga dinilai memiliki harga terbaik di Kaliandak! Tamu mendapatkan fasilitas lebih banyak untuk uang yang mereka keluarkan dibandingkan akomodasi lain di kota ini.<br><br>
+            <a href=http://grandeltykrakatoa.com// class="btn2"><span>Website</span></a> </p>
+            
+          </div>
           <div class="col-md-5">
             <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 330px;" src="<?=base_url()?>assets/img/hotel/Krakatoa.jpg" data-holder-rendered="true">
           </div>
@@ -166,9 +145,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
             Krui Mutun Walur Surf Camp Sumatra menawarkan meja depan 24-jam, taman, dan teras. Tersedia juga fasilitas lain seperti layanan binatu dan menyetrika. Berbagai kegiatan dapat dilakukan di akomodasi atau di sekitarnya, termasuk berselancar dan menyelam.
 
-            Untuk pilihan tempat bersantap, restoran di akomodasi ini menyajikan masakan Indonesia dan makanan ringan. Anda juga dapat memesan makanan melalui layanan kamar. </p>
-          	<button class="button" ><span>Website</span></button>
-		</div>
+            Untuk pilihan tempat bersantap, restoran di akomodasi ini menyajikan masakan Indonesia dan makanan ringan. Anda juga dapat memesan makanan melalui layanan kamar. <br><br>
+            <a href=https://www.tripadvisor.co.id/Hotel_Review-g3138249-d6558172-Reviews-Krui_Mutun_Walur_Surf_Camp-Krui_Lampung_Sumatra.html class="btn2"><span>Website</span></a> </p>
+            
+          </div>
           <div class="col-md-5 order-md-1">
             <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 330px;" src="<?=base_url()?>assets/img/hotel/kruimutun.jpg" data-holder-rendered="true">
           </div>
@@ -187,9 +167,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
             Terdapat juga kolam renang terbuka.
 
-            Untuk kenyamanan Anda, Aston Lampung City Hotel memiliki pusat bisnis. Resepsionisnya yang fasih berbahasa Inggris dan Indonesia selalu siap membantu Anda.  </p>
-          	<button class="button" ><span>Website</span></button>
-		</div>
+            Untuk kenyamanan Anda, Aston Lampung City Hotel memiliki pusat bisnis. Resepsionisnya yang fasih berbahasa Inggris dan Indonesia selalu siap membantu Anda. <br><br>
+            <a href=https://www.astonhotelsinternational.com/id/hotel/view/22/aston-lampung-city-hotel class="btn2"><span>Website</span></a> </p>
+          
+            
+          </div>
           <div class="col-md-5">
             <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 400px;" src="<?=base_url()?>assets/img/hotel/Aston.jpg" data-holder-rendered="true">
           </div>
@@ -206,8 +188,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
             Hotel menawarkan bungalow 1-3 kamar tidur yang luas dengan teras pribadi. Air mineral dan mesin membuat kopi disediakan. Kamar mandi en suite-nya dilengkapi dengan shower air panas outdoor dan perlengkapan mandi gratis.
 
-            Wisata sehari dan penyewaan mobil dapat dipesan di meja layanan wisata. Hotel ini juga menyediakan meja pramutamu. </p>
-		  <button class="button" ><span>Website</span></button>
+            Wisata sehari dan penyewaan mobil dapat dipesan di meja layanan wisata. Hotel ini juga menyediakan meja pramutamu.<br><br> 
+             <a href=https://www.tripadvisor.co.id/Hotel_Review-g297722-d3184790-Reviews-Alau_Alau_Resort-Bandar_Lampung_Lampung_Sumatra.html class="btn2"><span>Website</span></a> </p>
+         
+            
           </div>
           <div class="col-md-5 order-md-1">
             <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 330px;" src="<?=base_url()?>assets/img/hotel/alau.jpg" data-holder-rendered="true">
