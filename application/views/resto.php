@@ -116,7 +116,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="card-body">
         <h4 class="card-title" >Taman Santap Rumah Kayu</h4>
         <p class="card-text" > restoran yang menawarkan konsep asri dan hijau dimana terdapat taman dan saung lesehan apung yang dikelilingi kolam ikan.</p>
-        <a href=https://instagram.com/rumahkayulampung?utm_source=ig_profile_share&igshid=1rh3jlakns3lz target="_top" class="btn btn-primary" >go website</a>
+        <a href=https://www.tripadvisor.com/Restaurant_Review-g297722-d6750646-Reviews-Taman_Santap_Rumah_Kayu-Bandar_Lampung_Lampung_Sumatra.html target="_top" class="btn btn-primary" >go website</a>
         </div>
       </div>
       <br>
