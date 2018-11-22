@@ -2,113 +2,31 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class balam extends CI_Controller {
-
-	/**
-	 * Index Page for this controller.
-	 *
-	 * Maps to the following URL
-	 * 		http://example.com/index.php/welcome
-	 *	- or -
-	 * 		http://example.com/index.php/welcome/index
-	 *	- or -
-	 * Since this controller is set as the default controller in
-	 * config/routes.php, it's displayed at http://example.com/
-	 *
-	 * So any other public methods not prefixed with an underscore will
-	 * map to /index.php/welcome/<method_name>
-	 * @see https://codeigniter.com/user_guide/general/urls.html
-	 */
-
-	function __construct(){
-		parent:: __construct();
-		$this->load->model('komen_balam');
-		$this->load->helper('url');
-	}
-
-	public function input()
-	{
-	$this->load->view('balam/formkomentar');
-	}
-	public function simpan()
-	{
-		$data = array(
-			'email' => $this->input->post('email'),
-			'nama' => $this->input->post('nama'), 
-			'isi' => $this->input->post('komentar')
-		);
-		$proses = $this->komen_balam->simpan($data);
-		redirect('balam/balam1');
+	public function __construct(){
+		parent::__construct();
+		$this->load->model('daerah_model');
+		$this->load->model('artikel_model');
 	}
 
 	public function balam1()
 	{
-		$data['komen_lambar'] = $this->komen_balam->tampil()->result();
-		$this->load->view('template/header.php');
-		$this->load->view('balam/balam1.php',$data);
-		$this->load->view('template/footer.php');
+		$artikel = $this->artikel_model->balam1();
+		$daerah = $this->daerah_model->balam();
+		$data = array('title' 	=> 'fgdfgsf',
+									'artikel'	=> $artikel,
+									'daerah'	=> $daerah,
+									'isi'   	=> 'balam/balam'
+								 );
+		$this->load->view('balam/layout/wrapper',$data);
 	}
 
-	public function balam2()
-	{
-		$this->load->view('template/header.php');
-		$this->load->view('balam/balam2.php');
-		$this->load->view('template/footer.php');
-	}
+	public function read($id_artikel){
+		$artikel = $this->artikel_model->read($id_artikel);
+		$data = array('title' 	=> $artikel->judul,
+									'artikel'	=> $artikel,
+									'isi'   	=> 'balam/balam'
+								 );
+		$this->load->view('balam/layout/wrapper',$data);
 
-	public function balam3()
-	{
-		$this->load->view('template/header.php');
-		$this->load->view('balam/balam3.php');
-		$this->load->view('template/footer.php');
 	}
-
-	public function balam4()
-	{
-		$this->load->view('template/header.php');
-		$this->load->view('balam/balam4.php');
-		$this->load->view('template/footer.php');
-	}
-
-	public function balam5()
-	{
-		$this->load->view('template/header.php');
-		$this->load->view('balam/balam5.php');
-		$this->load->view('template/footer.php');
-	}
-
-	public function balam6()
-	{
-		$this->load->view('template/header.php');
-		$this->load->view('balam/balam6.php');
-		$this->load->view('template/footer.php');
-	}
-
-	public function balam7()
-	{
-		$this->load->view('template/header.php');
-		$this->load->view('balam/balam7.php');
-		$this->load->view('template/footer.php');
-	}
-
-	public function balam8()
-	{
-		$this->load->view('template/header.php');
-		$this->load->view('balam/balam8.php');
-		$this->load->view('template/footer.php');
-	}
-
-	public function balam9()
-	{
-		$this->load->view('template/header.php');
-		$this->load->view('balam/balam9.php');
-		$this->load->view('template/footer.php');
-	}
-
-	public function balam10()
-	{
-		$this->load->view('template/header.php');
-		$this->load->view('balam/balam10.php');
-		$this->load->view('template/footer.php');
-	}
-
 }
