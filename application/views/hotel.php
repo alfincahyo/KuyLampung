@@ -140,7 +140,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             Krui Mutun Walur Surf Camp Sumatra menawarkan meja depan 24-jam, taman, dan teras. Tersedia juga fasilitas lain seperti layanan binatu dan menyetrika. Berbagai kegiatan dapat dilakukan di akomodasi atau di sekitarnya, termasuk berselancar dan menyelam.
 
             Untuk pilihan tempat bersantap, restoran di akomodasi ini menyajikan masakan Indonesia dan makanan ringan. Anda juga dapat memesan makanan melalui layanan kamar. </p>
-          </div>
+          	<button class="button" ><span>Website</span></button>
+		</div>
           <div class="col-md-5 order-md-1">
             <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 330px;" src="<?=base_url()?>assets/img/hotel/kruimutun.jpg" data-holder-rendered="true">
           </div>
