@@ -70,11 +70,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
             Novotel Lampung adalah hotel bintang 4 yang memberi Anda akses mudah untuk mencapai dan menjelajahi tempat menarik terdekat di Bandar Lampung, seperti Museum Lampung, pusat perbelanjaan, banyak pantai indah (Sari Ringgung, Mutun, Ketapang). Terdapat pula Taman Bumi Kedaton, Taman Kupu-Kupu. Anda juga dapat mengunjungi lebih banyak destinasi wisata di Provinsi Lampung. Misalnya: Teluk Kiluan, Pantai Tanjung Setia, Taman Nasional Bukit Barisan, Pusat Konservasi Gajah Way Kambas.
 			</p>
+      <button class="button" ><span>Website</span></button>
           </div>
 
           <div class="col-md-5">
             <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 250px;" src="<?=base_url()?>assets/img/hotel/Novotel.jpg" data-holder-rendered="true">
-            <button class="button" style="margin-top: 50%;"><span>Website</span></button>
           </div>
         </div>
 
@@ -93,10 +93,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             Anda dapat bersantai dengan layanan pijat di spa atau menyewa mobil untuk menjelajahi kota. Hotel ini menawarkan layanan binatu dan menyetrika serta memiliki meja pramutamu.
 
             Aneka hidangan Indonesia dan internasional disajikan di kedai kopi, yang juga menawarkan layanan kamar. </p>
+            <button class="button" ><span>Website</span></button>
           </div>
           <div class="col-md-5 order-md-1">
             <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 330px;" src="<?=base_url()?>assets/img/hotel/Grand.jpg" data-holder-rendered="true">
-          </div>
+            </div>
         </div>
 
 
