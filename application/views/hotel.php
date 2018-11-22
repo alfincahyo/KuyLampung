@@ -161,7 +161,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             Terdapat juga kolam renang terbuka.
 
             Untuk kenyamanan Anda, Aston Lampung City Hotel memiliki pusat bisnis. Resepsionisnya yang fasih berbahasa Inggris dan Indonesia selalu siap membantu Anda.  </p>
-          </div>
+          	<button class="button" ><span>Website</span></button>
+		</div>
           <div class="col-md-5">
             <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 400px;" src="<?=base_url()?>assets/img/hotel/Aston.jpg" data-holder-rendered="true">
           </div>
