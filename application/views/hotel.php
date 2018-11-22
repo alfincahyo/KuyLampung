@@ -53,6 +53,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     opacity: 1;
     right: 0;
   }
+	  
+#runningtext{
+    width:  100%;
+    height:200px;
+    padding-top: 7px;
+    padding-bottom: 15px;
+    margin: 5px 0 5px 0;
+    background-color: #F2F3F4;
+    color: #111111;
+    font-size: 50px;
+    position: relative;
+}
   </style>
 </head>
 
