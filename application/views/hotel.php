@@ -62,6 +62,21 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <h1 style="color: black; border-color: black; margin-left: -20px; margin-top: 20px;">Hotel</h1>
 
 	<hr class="featurette-divider">
+		
+	<div id="runningtext">
+       <marquee behavior="scroll" scrollamount="3" onmouseover="this.stop();"
+       onmouseout="this.start();" direction="left">
+       <img src="<?=base_url()?>assets/img/caropagebaru/kemenpar.png" class="img-thumbnail" alt="Bandar Lampung" height="250px" width="250px"style='background-color: #f2f3f4; border: none;'>
+       <img src="<?=base_url()?>assets/img/caropagebaru/logopesona.png" class="img-thumbnail" alt="LogoWonderfull" height="200px" width="210px"style='background-color: #f2f3f4; border: none;'> 
+       <img src="<?=base_url()?>assets/img/caropagebaru/wonderfullamp.png" class="img-thumbnail" alt="LogoWonderfull" height="150px" width="150px"style='background-color: #f2f3f4; border: none;'> 
+       <img src="<?=base_url()?>assets/img/caropagebaru/logolampung.png" class="img-thumbnail" alt="Bandar Lampung" height="80px" width="100px"style='background-color: #f2f3f4; border: none;'>
+       <img src="<?=base_url()?>assets/img/caropagebaru/logobdl.png" class="img-thumbnail" alt="Lamsel" height="150px" width="100px"style='background-color: #f2f3f4; border: none;'>
+       <img src="<?=base_url()?>assets/img/caropagebaru/logolamsel.png" class="img-thumbnail" alt="Lambar" height="100px" width="100px"style='background-color: #f2f3f4; border: none;'> 
+       <img src="<?=base_url()?>assets/img/pagebaru/logolambar.png" class="img-thumbnail" alt="Lambar" height="0px" width="100px"style='background-color: #f2f3f4; border: none; margin-left: 0px;'> 
+       
+       <h2 style="margin-left: 30px;">Dinas Pariwisata Pemerintah Provinsi Lampung Tahun 2018 / 2019</h2>
+       </marquee>
+       </div> 
 
         <div class="row featurette">
           <div class="col-md-7" style="margin-top: 10px;">
