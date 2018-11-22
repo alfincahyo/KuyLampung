@@ -2,40 +2,49 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class location extends CI_Controller {
+	public function __construct(){
+		parent::__construct();
+		$this->load->model('daerah_model');
+		$this->load->model('artikel_model');
+	}
 
-	/**
-	 * Index Page for this controller.
-	 *
-	 * Maps to the following URL
-	 * 		http://example.com/index.php/welcome
-	 *	- or -
-	 * 		http://example.com/index.php/welcome/index
-	 *	- or -
-	 * Since this controller is set as the default controller in
-	 * config/routes.php, it's displayed at http://example.com/
-	 *
-	 * So any other public methods not prefixed with an underscore will
-	 * map to /index.php/welcome/<method_name>
-	 * @see https://codeigniter.com/user_guide/general/urls.html
-	 */
-	public function lamsel()
-	{
+	public function balam(){
+		$artikel = $this->artikel_model->balam();
+		$daerah = $this->daerah_model->balam();
+		$data = array('title' 	=> 'fgdfgsf',
+									'artikel'	=> $artikel,
+									'daerah'	=> $daerah,
+									'isi'   	=> 'location/balam'
+								 );
+
 		$this->load->view('template/header.php');
-		$this->load->view('location/lamsel.php');
+		$this->load->view('location/balam.php',$data);
 		$this->load->view('template/footer.php');
 	}
 
-	public function balam()
-	{
+	public function lambar(){
+		$artikel = $this->artikel_model->lambar();
+		$daerah = $this->daerah_model->lambar();
+		$data = array('title' 	=> 'fgdfgsf',
+									'artikel'	=> $artikel,
+									'daerah'	=> $daerah,
+									'isi'   	=> 'location/lambar'
+								 );
 		$this->load->view('template/header.php');
-		$this->load->view('location/balam.php');
+		$this->load->view('location/lambar.php',$data);
 		$this->load->view('template/footer.php');
 	}
 
-	public function lambar()
-	{
-		$this->load->view('template/header.php');
-		$this->load->view('location/lambar.php');
-		$this->load->view('template/footer.php');
+	public function lamsel(){
+		$artikel = $this->artikel_model->lamsel();
+		$daerah = $this->daerah_model->lamsel();
+		$data = array('title' 	=> 'fgdfgsf',
+									'artikel'	=> $artikel,
+									'daerah'	=> $daerah,
+									'isi'   	=> 'location/lamsel'
+								 );
+		 $this->load->view('template/header.php');
+	   $this->load->view('location/lamsel.php',$data);
+		 $this->load->view('template/footer.php');
 	}
 }
