@@ -11,10 +11,84 @@ class Artikel_model extends CI_Model {
         $this->db->select('artikel.*, daerah.nama_daerah, admin.username');
 				$this->db->from('artikel');
 				$this->db->join('daerah','daerah.id_daerah = artikel.id_daerah','LEFT');
-	    			$this->db->join('admin','admin.id_daerah = artikel.id_daerah','LEFT');
+				$this->db->join('admin','admin.id_admin = artikel.id_admin','LEFT');
 				$this->db->order_by('id_artikel','DESC');
 				$query = $this->db->get();
         return $query->result();
+    }
+		public function balam1(){
+			$this->db->select('artikel.*, daerah.nama_daerah');
+			$this->db->from('artikel');
+			$this->db->join('daerah','daerah.id_daerah = artikel.id_daerah','LEFT');
+			$this->db->order_by('id_artikel','ASC');
+			$query = $this->db->get();
+			return $query->row();
+		}
+
+		public function balam(){
+			$this->db->select('artikel.*, daerah.nama_daerah');
+			$this->db->from('artikel');
+			$this->db->join('daerah','daerah.id_daerah = artikel.id_daerah','LEFT');
+			$this->db->order_by('id_artikel','ASC');
+			$this->db->limit(10);
+			$this->db->offset(0);
+			$query = $this->db->get();
+			return $query->result();
+    }
+
+		public function lamsel1(){
+			$this->db->select('artikel.*, daerah.nama_daerah');
+			$this->db->from('artikel');
+			$this->db->join('daerah','daerah.id_daerah = artikel.id_daerah','LEFT');
+			$this->db->order_by('id_artikel','ASC');
+			$query = $this->db->get();
+			return $query->row();
+		}
+
+		public function lamsel(){
+			$this->db->select('artikel.*, daerah.nama_daerah');
+			$this->db->from('artikel');
+			$this->db->join('daerah','daerah.id_daerah = artikel.id_daerah','LEFT');
+			$this->db->order_by('id_artikel','ASC');
+			$this->db->limit(10);
+			$this->db->offset(10);
+			$query = $this->db->get();
+			return $query->result();
+    }
+
+		public function lambar1(){
+			$this->db->select('artikel.*, daerah.nama_daerah');
+			$this->db->from('artikel');
+			$this->db->join('daerah','daerah.id_daerah = artikel.id_daerah','LEFT');
+			$this->db->order_by('id_artikel','ASC');
+			$query = $this->db->get();
+			return $query->row();
+		}
+
+		public function lambar(){
+			$this->db->select('artikel.*, daerah.nama_daerah');
+			$this->db->from('artikel');
+			$this->db->join('daerah','daerah.id_daerah = artikel.id_daerah','LEFT');
+			$this->db->order_by('id_artikel','ASC');
+			$this->db->limit(10);
+			$this->db->offset(20);
+			$query = $this->db->get();
+			return $query->result();
+    }
+
+		public function read2($id_artikel){
+				$query = $this->db->get_where('artikel',array('id_artikel' => $id_artikel));
+				return $query->row();
+		}
+
+		public function read1($id_artikel){
+				$query = $this->db->get_where('artikel',array('id_artikel' => $id_artikel));
+				return $query->row();
+		}
+
+		public function read($id_artikel){
+        $query = $this->db->get_where('artikel',array('id_artikel' => $id_artikel));
+        return $query->row();
     }
 
     public function detail($id_artikel){
