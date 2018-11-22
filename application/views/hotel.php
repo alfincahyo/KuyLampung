@@ -13,7 +13,47 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 
-	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  .button {
+    border-radius: 4px;
+    background-color: #4286f4;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+  .button:hover span {
+    padding-right: 25px;
+  }
+
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  </style>
 </head>
 
 <body>
@@ -34,6 +74,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
           <div class="col-md-5">
             <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 250px;" src="<?=base_url()?>assets/img/hotel/Novotel.jpg" data-holder-rendered="true">
+            <button class="button" style="margin-top: 50%;"><span>Website</span></button>
           </div>
         </div>
 
