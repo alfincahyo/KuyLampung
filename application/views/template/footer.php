@@ -12,17 +12,20 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </head>
-<br>
-<br>
-<br>
+
+<body>
+  <div class="container">
+    <hr class="featurette-divider">
 	<footer class="app-footer">
   <div>
     <center>
     <a href="KuyLampung.com"> Kuy Lampung</a>
-    <span>&copy; 2018 creativeLabs.</span>
+    <span>&copy; 2018 </span>
     <br>
     <span>Powered by</span>
     <a href="KuyLampung">Kuy Lampung</a>
   </center>
   </div>
+
 </footer>
+</div>
