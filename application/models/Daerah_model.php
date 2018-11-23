@@ -23,11 +23,12 @@ class Daerah_model extends CI_Model {
     }
 
 		public function lamsel(){
-	      $this->db->select('*');
-				$this->db->from('daerah');
-				$this->db->limit(1);
-				$this->db->offset(1);
-				$query = $this->db->get();
+			$this->db->select('*');
+			$this->db->from('daerah');
+			$this->db->limit(2);
+			$this->db->offset(1);
+			$query = $this->db->get();
+			return $query->result();
 		    return $query->result();
 		}
 

@@ -28,10 +28,9 @@ class Artikel_model extends CI_Model {
 		public function balam(){
 			$this->db->select('artikel.*, daerah.nama_daerah');
 			$this->db->from('artikel');
+			$this->db->where('artikel.id_daerah',12);
 			$this->db->join('daerah','daerah.id_daerah = artikel.id_daerah','LEFT');
 			$this->db->order_by('id_artikel','ASC');
-			$this->db->limit(10);
-			$this->db->offset(0);
 			$query = $this->db->get();
 			return $query->result();
     }
@@ -48,10 +47,9 @@ class Artikel_model extends CI_Model {
 		public function lamsel(){
 			$this->db->select('artikel.*, daerah.nama_daerah');
 			$this->db->from('artikel');
+			$this->db->where('artikel.id_daerah',14);
 			$this->db->join('daerah','daerah.id_daerah = artikel.id_daerah','LEFT');
 			$this->db->order_by('id_artikel','ASC');
-			$this->db->limit(10);
-			$this->db->offset(10);
 			$query = $this->db->get();
 			return $query->result();
     }
@@ -68,10 +66,9 @@ class Artikel_model extends CI_Model {
 		public function lambar(){
 			$this->db->select('artikel.*, daerah.nama_daerah');
 			$this->db->from('artikel');
+			$this->db->where('artikel.id_daerah',13);
 			$this->db->join('daerah','daerah.id_daerah = artikel.id_daerah','LEFT');
 			$this->db->order_by('id_artikel','ASC');
-			$this->db->limit(10);
-			$this->db->offset(20);
 			$query = $this->db->get();
 			return $query->result();
     }
