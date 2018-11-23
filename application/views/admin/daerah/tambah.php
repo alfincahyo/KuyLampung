@@ -33,12 +33,6 @@
                       </div>
                     </div>
 
-                    <div class="col-md-8">
-                      <div class="form-group form-group-md">
-                        <label>Keterangan</label>
-                        <input type="text" name="Keterangan" class="form-control" placeholder="Masukkan Keterangan" required>
-                      </div>
-                    </div>
 
                     <div class="col-md-12">
                       <div class="form-group form-group-md">
