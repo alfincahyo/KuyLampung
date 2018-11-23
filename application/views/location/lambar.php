@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <title><?php foreach ($daerah as $daerah) {?>
+      <?php echo $daerah->nama_daerah ?>
+    <?php } ?></title>
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 
@@ -39,7 +43,7 @@ h1 {
     width: 25%;
 }
 
-/* Clear floats after rows */ 
+/* Clear floats after rows */
 .row:after {
     content: "";
     display: table;
@@ -83,127 +87,20 @@ h1 {
 
 <!-- Portfolio Gallery Grid -->
 <div class="row">
-  <div class="column">
-    <div class="content">
-      <img src="<?=base_url()?>assets/img/lambar/gunungseminungx.jpg" style="width:100%; height: 23%;">
-      <h3 style="margin-top: 10px;">Gunung Seminung</h3>
-      <p>Gunung Seminung berada di barat laut Kota Liwa, ibukota Lampung Barat dengan jarak sekitar 25 kilometer. 
-      </p>
+  <?php foreach ($artikel as $artikel) { ?>
+  <div class="col-lg-4">
+      <img src="<?=base_url('assets/upload/gambar/'.$artikel->gambar)?>" class="img img-responsive" height="150px" width="310px">
+      <h3 style="margin-top: 10px;"><?php echo $artikel->judul ?></h3>
 
-      <a href="<?php echo site_url('lambar/lambar1'); ?>">
-                Baca Selengkapnya >>>>>
-                </a>
-    </div>
-  </div>
-  <div class="column">
-    <div class="content">
-    <img src="<?=base_url()?>assets/img/lambar/danauranau4.jpg" alt="Lights" style="width:100%; height: 23%;">
-      <h3 style="margin-top: 10px;">Danau Ranau</h3>
-      <p>Obyek Wisata Danau Ranau merupakan tempat wisata yang harus anda kunjungi karena pesona keindahannya tidak ada duanya. </p>
-      <a href="<?php echo site_url('lambar/lambar2'); ?>">
-                Baca Selengkapnya >>>>>
-                </a>
-    </div>
-  </div>
-  <div class="column">
-    <div class="content">
-    <img src="<?=base_url()?>assets/img/lambar/lumbokx1.jpg" alt="Nature" style="width:100%; height: 23%;">
-      <h3 style="margin-top: 10px;">Desa lumbok</h3>
-      <p>
-      Lumbok adalah desa yang sangat permai dengan pemandangan danau Ranau di tepiannya sehingga traveler yang berkunjung ke sana akan merasa kerasan dan damai.
-      </p>
-      <a href="<?php echo site_url('lambar/lambar3'); ?>">
-                Baca Selengkapnya >>>>>
-                </a>
-    </div>
-  </div>
-  <div class="column">
-    <div class="content">
-    <img src="<?=base_url()?>assets/img/lambar/tjsetia1.jpg" alt="Mountains" style="width:100%; height: 23%;">
-      <h3 style="margin-top: 10px;">Pantai Tanjung Setia</h3>
-      <p>gelombang di Tanjung Setia yang disebut-sebut sebagai salah satu yang terbaik oleh peselancar dari seluruh dunia. 
-</p>
-      <a href="<?php echo site_url('lambar/lambar4'); ?>">
-                Baca Selengkapnya >>>>>
-                </a>
-    </div>
-  </div>
-<!-- END GRID -->
-</div>
+      <?php echo character_limiter($artikel->isi,200); ?>
 
-<div class="content">
-  <img src="<?=base_url()?>assets/img/lambar/jakung1.png" alt="Bear" style="width:100%;">
-  <h3 style="margin-top: 10px;">Pantai Labuhan Jakung</h3>
-  <p>
-  	Salah satu pantai di Krui Pesisir Barat yang memiliki panorama menakjubkan sunset di pantai ini merupakan salah satu yang terbaik diantara patai-pantai di Pesisir Barat Lampung lainnya. 
-  </p>
-    <a href="<?php echo site_url('lambar/lambar5'); ?>">
+      <a href="<?php echo base_url('lambar/read2/'.$artikel->id_artikel) ?>">
                 Baca Selengkapnya >>>>>
                 </a>
-</div>
-
-<div class="row">
-  <div class="column">
-    <div class="content">
-      <img src="<?=base_url()?>assets/img/lambar/suoh5.jpg" style="width:100%; height: 23%;">
-      <h3 style="margin-top: 10px;">Danau Suoh</h3>
-      <p>Di Danau Suoh anda akan disambut dengan hamparan savana ilalang yang menakjubkan dan savana ilalang berwarna hijau yang siap memanjakan mata anda.</p>
-
-      <a href="<?php echo site_url('lambar/lambar6'); ?>">
-                Baca Selengkapnya >>>>>
-                </a>
-    </div>
   </div>
-  <div class="column">
-    <div class="content">
-    <img src="<?=base_url()?>assets/img/lambar/pesagi1.jpg" alt="Lights" style="width:100%; height: 23%;">
-      <h3 style="margin-top: 10px;">Gunung Pesagi</h3>
-      <p>
-       Keindahan alam di Lampung Barat sudah tidak diragukan lagi, Karena dari puncak Gunung Pesagi kalian dapat menikmati keindahan wilayah Lampung Barat
-      </p>
-      <a href="<?php echo site_url('lambar/lambar7'); ?>">
-                Baca Selengkapnya >>>>>
-                </a>
-    </div>
+  <?php } ?>
   </div>
-  <div class="column">
-    <div class="content">
-    <img src="<?=base_url()?>assets/img/lambar/baris1.jpg" alt="Nature" style="width:100%; height: 23%;">
-      <h3 style="margin-top: 10px;">Bukit Barisan Selatan</h3>
-      <p>
-      Taman Nasional Bukit Barisan Selatan terletak di ujung wilayah selatan – barat Sumatera, meliputi tiga propinsi yaitu Lampung, Bengkulu dan Sumatera Selatan. 
-      </p>
-      <a href="<?php echo site_url('lambar/lambar8'); ?>">
-                Baca Selengkapnya >>>>>
-                </a>
-    </div>
-  </div>
-  <div class="column">
-    <div class="content">
-    <img src="<?=base_url()?>assets/img/lambar/besai1.jpg" alt="Mountains" style="width:100%; height: 23%;">
-      <h3 style="margin-top: 10px;">Sungai  Way Besai</h3>
-      <p> Potensi besar yang dimiliki oleh sungai digunakan untuk kebutuhan pariwisata, yaitu arung jeram. Sepanjang jalur rafting ada sekitar 13 jeram yang harus dilewati.
-</p>
-      <a href="<?php echo site_url('lambar/lambar9'); ?>">
-                Baca Selengkapnya >>>>>
-                </a>
-    </div>
-  </div>
-<!-- END GRID -->
-</div>
 
-<div class="content">
-  <img src="<?=base_url()?>assets/img/lambar/angin1.jpg" alt="Bear" style="width:100%;">
-  <h3 style="margin-top: 10px;">Bukit  Mandiangin</h3>
-  <p>
-    bukit ini berdiri kokoh dengan ketinggian 400 meter di atas permukaan laut dan bakal menjadi titik lepas landas untuk olahraga yang sangat populer, paralayang.
-
-    <a href="<?php echo site_url('lambar/lambar10'); ?>">
-                Baca Selengkapnya >>>>>
-                </a>
-</div>
-
-<!-- END MAIN -->
 </div>
 
 </body>
