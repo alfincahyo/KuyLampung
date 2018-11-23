@@ -2,9 +2,9 @@
 <script>tinymce.init({ selector:'textarea'});</script>
 
 <?php
-  echo validation_errors('<div class="alert alert-warning">,</div>');
+  echo validation_errors('<div class="alert alert-warning">','</div>');
 
-  echo form_open(base_url('admin/artikel/edit/'.$artikel->id_artikel));
+  echo form_open_multipart(base_url('admin/artikel/edit/'.$artikel->id_artikel));
 ?>
 
     <div class="col-md-8">
@@ -20,13 +20,20 @@
       </div>
       <div class="form-group form-group-lg">
         <label>Judul Artikel</label>
-        <input type="text" name="judul" class"form-control" value="<?php echo $artikel->judul ?>" placeholder="Masukkan Judul" required>
+        <input type="text" name="judul" class="form-control" value="<?php echo $artikel->judul ?>" placeholder="Masukkan Judul" required>
+      </div>
+    </div>
+
+    <div class="col-md-8">
+      <div class="form-group form-group-lg">
+        <label>Gambar</label>
+        <input type="file" name="gambar_artikel" class="form-control" placeholder="Alamat" required>
       </div>
     </div>
 
   <div class="col-md-8">
     <div class="form-group">
-      <label>Isi</label>
+      <label>Isi Artikel</label>
       <textarea name="isi" class="form-control" placeholder="Isi Artikel" rows="8" cols="80" required><?php echo $artikel->isi ?></textarea>
     </div>
     <div class="form-group">
