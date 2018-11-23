@@ -33,12 +33,6 @@ echo form_open_multipart(base_url('admin/daerah/edit/'.$daerah->id_daerah));
   </div>
 </div>
 
-<div class="col-md-6">
-  <div class="form-group">
-    <label>Keterangan</label>
-    <input type="text" name="Keterangan" class="form-control" placeholder="Masukkan Keterangan" value="<?php echo $daerah->keterangan ?>"required>
-  </div>
-</div>
 
 <div class="col-md-6">
   <div class="form-group">
