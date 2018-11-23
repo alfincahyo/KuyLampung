@@ -164,7 +164,7 @@ class Artikel extends CI_Controller {
 		}
 		$data = array('id_artikel'  => $id_artikel);
 		$this->artikel_model->delete($data);
-		$this->session->set_flashdata('SUKSES','Data Daerah Telah Dihapus');
+		$this->session->set_flashdata('SUKSES','Data Artikel Telah Dihapus');
 		redirect(base_url('admin/artikel'));
 	}
 }
